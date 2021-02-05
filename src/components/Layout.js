@@ -1,9 +1,9 @@
 import React from 'react'
 import {Helmet} from 'react-helmet'
 import Footer from '../components/Footer'
-import Navbar from '../components/Navbar'
+import DemoNavbar from '../components/Navbars/demoNavbar'
 import "../assets/scss/argon-design-system-react.scss?v1.1.0";
-import './all.sass'
+//import './all.sass'
 import useSiteMetadata from './SiteMetadata'
 import {withPrefix} from 'gatsby'
 
@@ -49,7 +49,7 @@ const TemplateWrapper = ({children}) => {
                     content={`${withPrefix('/')}img/og-image.jpg`}
                 />
             </Helmet>
-            <Navbar />
+            <DemoNavbar />
             <div>{children}</div>
             <Footer />
         </div>
