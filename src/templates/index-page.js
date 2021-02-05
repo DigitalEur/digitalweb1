@@ -6,7 +6,7 @@ import Layout from '../components/Layout'
 import Features from '../components/Features'
 import BlogRoll from '../components/BlogRoll'
 
-import Hero from "../Components/IndexSections/Hero.js";
+import Hero from "../components/IndexSections/Hero.js";
 
 import "../assets/vendor/nucleo/css/nucleo.css";
 import "../assets/vendor/font-awesome/css/font-awesome.min.css";
