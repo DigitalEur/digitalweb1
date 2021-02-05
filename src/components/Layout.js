@@ -1,7 +1,7 @@
 import React from 'react'
 import {Helmet} from 'react-helmet'
 import Footer from '../components/Footer'
-import DemoNavbar from '../components/Navbars/demoNavbar'
+import DemoNavbar from '../components/Navbars/DemoNavbar'
 import "../assets/scss/argon-design-system-react.scss?v1.1.0";
 //import './all.sass'
 import useSiteMetadata from './SiteMetadata'
