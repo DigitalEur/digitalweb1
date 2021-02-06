@@ -1,4 +1,6 @@
 import React from 'react'
+// nodejs library that concatenates classes
+import classnames from "classnames";
 import PropTypes from 'prop-types'
 import {graphql, Link} from 'gatsby'
 
@@ -7,13 +9,29 @@ import Features from '../components/Features'
 import BlogRoll from '../components/BlogRoll'
 
 import Hero from "../components/IndexSections/Hero.js";
+import CardsFooter from "../components/Footers/CardsFooter";
+// index page sections
+import Download from "../components/IndexSections/Download.js";
 
 import "../assets/vendor/nucleo/css/nucleo.css";
 import "../assets/vendor/font-awesome/css/font-awesome.min.css";
 //import "../assets/scss/argon-design-system-react.scss?v1.1.0";
 // nodejs library that concatenates classes
 // reactstrap components
-import {Badge, Button, Card, CardBody, CardImg, Col, Container, FormGroup, Input, Row} from "reactstrap";
+import {
+    Badge,
+    Button,
+    Card,
+    CardBody,
+    CardImg,
+    Col,
+    Container,
+    FormGroup,
+    Input,
+    InputGroup,
+    InputGroupAddon, InputGroupText,
+    Row
+} from "reactstrap";
 
 export const IndexPageTemplate = ({
                                       image,
@@ -779,6 +797,34 @@ export const IndexPageTemplate = ({
                                     <p className="mt-0">
                                         Your project is very important to us.
                                     </p>
+                                    <FormGroup
+                                        className={classnames("mt-5")}
+                                    >
+                                        <InputGroup className="input-group-alternative">
+                                            <InputGroupAddon addonType="prepend">
+                                                <InputGroupText>
+                                                    <i className="ni ni-user-run" />
+                                                </InputGroupText>
+                                            </InputGroupAddon>
+                                            <Input
+                                                placeholder="Your name"
+                                                type="text"
+                                            />
+                                        </InputGroup>
+                                    </FormGroup>
+                                    <FormGroup>
+                                        <InputGroup className="input-group-alternative">
+                                            <InputGroupAddon addonType="prepend">
+                                                <InputGroupText>
+                                                    <i className="ni ni-email-83" />
+                                                </InputGroupText>
+                                            </InputGroupAddon>
+                                            <Input
+                                                placeholder="Email address"
+                                                type="email"
+                                            />
+                                        </InputGroup>
+                                    </FormGroup>
                                     <FormGroup className="mb-4">
                                         <Input
                                             className="form-control-alternative"
@@ -806,7 +852,9 @@ export const IndexPageTemplate = ({
                     </Row>
                 </Container>
             </section>
+            <Download />
         </main>
+        <CardsFooter />
         <div
             className="full-width-image margin-top-0"
             style={{
