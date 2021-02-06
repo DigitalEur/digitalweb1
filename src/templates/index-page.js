@@ -855,55 +855,131 @@ export const IndexPageTemplate = ({
             <Download />
         </main>
         <CardsFooter />
-        <div
-            className="full-width-image margin-top-0"
-            style={{
-                backgroundImage: `url(${
-                    !!image.childImageSharp ? image.childImageSharp.fluid.src : image
-                })`,
-                backgroundPosition: `top left`,
-                backgroundAttachment: `fixed`,
-            }}
-        >
-            <div
-                style={{
-                    display: 'flex',
-                    height: '150px',
-                    lineHeight: '1',
-                    justifyContent: 'space-around',
-                    alignItems: 'left',
-                    flexDirection: 'column',
-                }}
-            >
-                <h1
-                    className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
-                    style={{
-                        boxShadow:
-                            'rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px',
-                        backgroundColor: 'rgb(255, 68, 0)',
-                        color: 'white',
-                        lineHeight: '1',
-                        padding: '0.25em',
-                    }}
-                >
-                    {title}
-                </h1>
-                <h3
-                    className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
-                    style={{
-                        boxShadow:
-                            'rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px',
-                        backgroundColor: 'rgb(255, 68, 0)',
-                        color: 'white',
-                        lineHeight: '1',
-                        padding: '0.25em',
-                    }}
-                >
-                    {subheading}
-                </h3>
-            </div>
-        </div>
         <section className="section section--gradient">
+            <Container>
+                <Row className="row-grid align-items-center">
+                    <Col className="order-lg-2" lg="12">
+                        <Card className="shadow shadow-lg--hover mt-5">
+                            <CardBody>
+                                <div className="d-flex px-3">
+                                    <div>
+                                        <div
+                                            className="icon icon-shape bg-gradient-success rounded-circle text-white">
+                                            <i className="ni ni-satisfied" />
+                                        </div>
+                                    </div>
+                                    <div className="pl-4">
+                                        <h5 className="title text-success">
+                                            Awesome Support
+                                        </h5>
+                                        <p>
+                                            The Arctic Ocean freezes every winter and much of
+                                            the sea-ice then thaws every summer, and that
+                                            process will continue whatever.
+                                        </p>
+                                        <a
+                                            className="text-success"
+                                            href="#pablo"
+                                            onClick={e => e.preventDefault()}
+                                        >
+                                            Learn more
+                                        </a>
+                                    </div>
+                                </div>
+                            </CardBody>
+                        </Card>
+                        <Card className="shadow shadow-lg--hover mt-5">
+                            <CardBody>
+                                <div className="d-flex px-3">
+                                    <div>
+                                        <div
+                                            className="icon icon-shape bg-gradient-warning rounded-circle text-white">
+                                            <i className="ni ni-active-40" />
+                                        </div>
+                                    </div>
+                                    <div className="pl-4">
+                                        <h5 className="title text-warning">
+                                            Modular Components
+                                        </h5>
+                                        <p>
+                                            The Arctic Ocean freezes every winter and much of
+                                            the sea-ice then thaws every summer, and that
+                                            process will continue whatever.
+                                        </p>
+                                        <a
+                                            className="text-warning"
+                                            href="#pablo"
+                                            onClick={e => e.preventDefault()}
+                                        >
+                                            Learn more
+                                        </a>
+                                    </div>
+                                </div>
+                            </CardBody>
+                        </Card>
+                        <Card className="shadow shadow-lg--hover mt-5">
+                            <CardBody>
+                                <div className="d-flex px-3">
+                                    <div>
+                                        <div
+                                            className="icon icon-shape bg-gradient-success rounded-circle text-white">
+                                            <i className="ni ni-satisfied" />
+                                        </div>
+                                    </div>
+                                    <div className="pl-4">
+                                        <h5 className="title text-success">
+                                            Awesome Support
+                                        </h5>
+                                        <p>
+                                            The Arctic Ocean freezes every winter and much of
+                                            the sea-ice then thaws every summer, and that
+                                            process will continue whatever.
+                                        </p>
+                                        <a
+                                            className="text-success"
+                                            href="#pablo"
+                                            onClick={e => e.preventDefault()}
+                                        >
+                                            Learn more
+                                        </a>
+                                    </div>
+                                </div>
+                            </CardBody>
+                        </Card>
+                        <Card className="shadow shadow-lg--hover mt-5">
+                            <CardBody>
+                                <div className="d-flex px-3">
+                                    <div>
+                                        <div
+                                            className="icon icon-shape bg-gradient-warning rounded-circle text-white">
+                                            <i className="ni ni-active-40" />
+                                        </div>
+                                    </div>
+                                    <div className="pl-4">
+                                        <h5 className="title text-warning">
+                                            Modular Components
+                                        </h5>
+                                        <p>
+                                            The Arctic Ocean freezes every winter and much of
+                                            the sea-ice then thaws every summer, and that
+                                            process will continue whatever.
+                                        </p>
+                                        <a
+                                            className="text-warning"
+                                            href="#pablo"
+                                            onClick={e => e.preventDefault()}
+                                        >
+                                            Learn more
+                                        </a>
+                                    </div>
+                                </div>
+                            </CardBody>
+                        </Card>
+                    </Col>
+                </Row>
+            </Container>
+
+
             <div className="container">
                 <div className="section">
                     <div className="columns">
@@ -919,10 +995,31 @@ export const IndexPageTemplate = ({
                                 </div>
                                 <div className="columns">
                                     <div className="column is-12">
-                                        <h3 className="has-text-weight-semibold is-size-2">
-                                            {heading}
-                                        </h3>
-                                        <p>{description}</p>
+                                        <Card className="shadow shadow-lg--hover mt-5">
+                                            <CardBody>
+                                                <div className="d-flex px-3">
+                                                    <div>
+                                                        <div
+                                                            className="icon icon-shape bg-gradient-success rounded-circle text-white">
+                                                            <i className="ni ni-satisfied" />
+                                                        </div>
+                                                    </div>
+                                                    <div className="pl-4">
+                                                        <h5 className="title text-success">
+                                                            {heading}
+                                                        </h5>
+                                                        <p>{description}</p>
+                                                        <a
+                                                            className="text-success"
+                                                            href="#pablo"
+                                                            onClick={e => e.preventDefault()}
+                                                        >
+                                                            Learn more
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </CardBody>
+                                        </Card>
                                     </div>
                                 </div>
                                 <Features gridItems={intro.blurbs} />
