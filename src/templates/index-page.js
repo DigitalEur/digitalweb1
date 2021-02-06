@@ -857,7 +857,7 @@ export const IndexPageTemplate = ({
         <section className="section section--gradient">
             <Container>
                 <Row className="row-grid align-items-center">
-                    <div className="w-50 p-3">
+                    <div className="col-md-6 col-12 px-3">
                         <Card className="shadow shadow-lg--hover">
                             <CardBody>
                                 <div className="d-flex px-3">
@@ -888,7 +888,7 @@ export const IndexPageTemplate = ({
                             </CardBody>
                         </Card>
                     </div>
-                    <div className="w-50 p-3">
+                    <div className="col-md-6 col-12 p-3">
                         <Card className="shadow shadow-lg--hover">
                             <CardBody>
                                 <div className="d-flex px-3">
@@ -919,7 +919,7 @@ export const IndexPageTemplate = ({
                             </CardBody>
                         </Card>
                     </div>
-                    <div className="w-50 p-3">
+                    <div className="col-md-6 col-12 p-3">
                         <Card className="shadow shadow-lg--hover">
                             <CardBody>
                                 <div className="d-flex px-3">
@@ -950,7 +950,7 @@ export const IndexPageTemplate = ({
                             </CardBody>
                         </Card>
                     </div>
-                    <div className="w-50 px-3">
+                    <div className="col-md-6 col-12 px-3">
                         <Card className="shadow shadow-lg--hover">
                             <CardBody>
                                 <div className="d-flex px-3">
