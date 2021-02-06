@@ -21,12 +21,13 @@ export const IndexPageTemplate = ({
                                       heading,
                                       subheading,
                                       mainpitch,
+                                      picture,
                                       description,
                                       intro,
                                   }) => (
     <div>
         <main>
-            <Hero />
+            <Hero heading={heading} subheading={subheading} />
             <div className="position-relative">
                 {/* shape Hero */}
                 <section className="section section-lg section-shaped pb-250">
@@ -195,12 +196,10 @@ export const IndexPageTemplate = ({
                                         />
                                     </svg>
                                     <h4 className="display-3 font-weight-bold text-white">
-                                        Design System
+                                        {picture.title}
                                     </h4>
                                     <p className="lead text-italic text-white">
-                                        The Arctic Ocean freezes every winter and much of the
-                                        sea-ice then thaws every summer, and that process will
-                                        continue whatever happens.
+                                        {picture.description}
                                     </p>
                                 </blockquote>
                             </Card>
@@ -210,21 +209,15 @@ export const IndexPageTemplate = ({
                                 <div className="icon icon-lg icon-shape icon-shape-warning shadow rounded-circle mb-5">
                                     <i className="ni ni-settings" />
                                 </div>
-                                <h3>Our customers</h3>
+                                <h3>{mainpitch.title}</h3>
                                 <p className="lead">
-                                    Don't let your uses guess by attaching tooltips and
-                                    popoves to any element. Just make sure you enable them
-                                    first via JavaScript.
+                                    {mainpitch.description}
                                 </p>
                                 <p>
-                                    The kit comes with three pre-built pages to help you get
-                                    started faster. You can change the text and images and
-                                    you're good to go.
+                                    {mainpitch.first_paragraph}
                                 </p>
                                 <p>
-                                    The kit comes with three pre-built pages to help you get
-                                    started faster. You can change the text and images and
-                                    you're good to go.
+                                    {mainpitch.second_paragraph}
                                 </p>
                                 <a
                                     className="font-weight-bold text-warning mt-5"
@@ -476,7 +469,7 @@ export const IndexPageTemplate = ({
                         </Col>
                     </Row>
                 </Container>
-                SVG separator
+                {/* SVG separator */}
                 <div className="separator separator-bottom separator-skew zindex-100">
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -759,7 +752,7 @@ export const IndexPageTemplate = ({
                         </Col>
                     </Row>
                 </Container>
-                SVG separator
+                {/* SVG separator */}
                 <div className="separator separator-bottom separator-skew zindex-100">
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -918,6 +911,7 @@ IndexPageTemplate.propTypes = {
     heading: PropTypes.string,
     subheading: PropTypes.string,
     mainpitch: PropTypes.object,
+    picture: PropTypes.object,
     description: PropTypes.string,
     intro: PropTypes.shape({
         blurbs: PropTypes.array,
@@ -935,6 +929,7 @@ const IndexPage = ({data}) => {
                 heading={frontmatter.heading}
                 subheading={frontmatter.subheading}
                 mainpitch={frontmatter.mainpitch}
+                picture={frontmatter.picture}
                 description={frontmatter.description}
                 intro={frontmatter.intro}
             />
@@ -967,6 +962,12 @@ export const pageQuery = graphql`
         heading
         subheading
         mainpitch {
+          title
+          description
+          first_paragraph
+          second_paragraph
+        }
+        picture {
           title
           description
         }

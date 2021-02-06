@@ -2,8 +2,8 @@
 templateKey: index-page
 title: Great coffee with a conscience
 image: /img/home-jumbotron.jpg
-heading: Great coffee with a conscience
-subheading: Support sustainable farming while enjoying a cup
+heading: A beautiful Design System for Bootstrap 4.
+subheading: It's Free and Open Source.
 mainpitch:
   title: Why Kaldi
   description: >
@@ -11,6 +11,20 @@ mainpitch:
     shouldn't just taste good, it should do good too. We source all of our beans
     directly from small scale sustainable farmers and make sure part of the
     profits are reinvested in their communities.
+  first_paragraph: >
+    The kit comes with three pre-built pages to help you get
+    started faster. You can change the text and images and
+    you're good to go.
+  second_paragraph: >
+    The kit comes with three pre-built pages to help you get
+    started faster. You can change the text and images and
+    you're good to go.
+picture:
+  title: Picture title
+  description: >
+    The Arctic Ocean freezes every winter and much of the
+    sea-ice then thaws every summer, and that process will
+    continue whatever happens.
 description: >-
   Kaldi is the ultimate spot for coffee lovers who want to learn about their
   java’s origin and support the farmers that grew it. We take coffee production,
