@@ -854,12 +854,11 @@ export const IndexPageTemplate = ({
             </section>
             <Download />
         </main>
-        <CardsFooter />
         <section className="section section--gradient">
             <Container>
                 <Row className="row-grid align-items-center">
-                    <Col className="order-lg-2" lg="12">
-                        <Card className="shadow shadow-lg--hover mt-5">
+                    <div className="w-50 p-3">
+                        <Card className="shadow shadow-lg--hover">
                             <CardBody>
                                 <div className="d-flex px-3">
                                     <div>
@@ -888,7 +887,9 @@ export const IndexPageTemplate = ({
                                 </div>
                             </CardBody>
                         </Card>
-                        <Card className="shadow shadow-lg--hover mt-5">
+                    </div>
+                    <div className="w-50 p-3">
+                        <Card className="shadow shadow-lg--hover">
                             <CardBody>
                                 <div className="d-flex px-3">
                                     <div>
@@ -917,17 +918,19 @@ export const IndexPageTemplate = ({
                                 </div>
                             </CardBody>
                         </Card>
-                        <Card className="shadow shadow-lg--hover mt-5">
+                    </div>
+                    <div className="w-50 p-3">
+                        <Card className="shadow shadow-lg--hover">
                             <CardBody>
                                 <div className="d-flex px-3">
                                     <div>
                                         <div
-                                            className="icon icon-shape bg-gradient-success rounded-circle text-white">
-                                            <i className="ni ni-satisfied" />
+                                            className="icon icon-shape bg-gradient-info rounded-circle text-white">
+                                            <i className="ni ni-air-baloon" />
                                         </div>
                                     </div>
                                     <div className="pl-4">
-                                        <h5 className="title text-success">
+                                        <h5 className="title text-info">
                                             Awesome Support
                                         </h5>
                                         <p>
@@ -936,7 +939,7 @@ export const IndexPageTemplate = ({
                                             process will continue whatever.
                                         </p>
                                         <a
-                                            className="text-success"
+                                            className="text-info"
                                             href="#pablo"
                                             onClick={e => e.preventDefault()}
                                         >
@@ -946,17 +949,19 @@ export const IndexPageTemplate = ({
                                 </div>
                             </CardBody>
                         </Card>
-                        <Card className="shadow shadow-lg--hover mt-5">
+                    </div>
+                    <div className="w-50 px-3">
+                        <Card className="shadow shadow-lg--hover">
                             <CardBody>
                                 <div className="d-flex px-3">
                                     <div>
                                         <div
-                                            className="icon icon-shape bg-gradient-warning rounded-circle text-white">
-                                            <i className="ni ni-active-40" />
+                                            className="icon icon-shape bg-gradient-primary rounded-circle text-white">
+                                            <i className="ni ni-badge" />
                                         </div>
                                     </div>
                                     <div className="pl-4">
-                                        <h5 className="title text-warning">
+                                        <h5 className="title text-primary">
                                             Modular Components
                                         </h5>
                                         <p>
@@ -965,7 +970,7 @@ export const IndexPageTemplate = ({
                                             process will continue whatever.
                                         </p>
                                         <a
-                                            className="text-warning"
+                                            className="text-primary"
                                             href="#pablo"
                                             onClick={e => e.preventDefault()}
                                         >
@@ -975,7 +980,7 @@ export const IndexPageTemplate = ({
                                 </div>
                             </CardBody>
                         </Card>
-                    </Col>
+                    </div>
                 </Row>
             </Container>
 

@@ -1,6 +1,6 @@
 import React from 'react'
 import {Helmet} from 'react-helmet'
-import Footer from '../components/Footer'
+import CardsFooter from '../components/Footers/CardsFooter'
 import DemoNavbar from '../components/Navbars/DemoNavbar'
 import "../assets/scss/argon-design-system-react.scss?v1.1.0";
 //import './all.sass'
@@ -51,7 +51,7 @@ const TemplateWrapper = ({children}) => {
             </Helmet>
             <DemoNavbar />
             <div>{children}</div>
-            <Footer />
+            <CardsFooter />
         </div>
     )
 }

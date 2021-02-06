@@ -148,34 +148,37 @@ class CardsFooter extends React.Component {
                                 <Nav className="nav-footer justify-content-end">
                                     <NavItem>
                                         <NavLink
-                                            href="https://www.creative-tim.com?ref=adsr-footer"
-                                            target="_blank"
-                                        >
-                                            Creative Tim
+                                            href="/">
+                                            Home
                                         </NavLink>
                                     </NavItem>
                                     <NavItem>
                                         <NavLink
-                                            href="https://www.creative-tim.com/presentation?ref=adsr-footer"
-                                            target="_blank"
+                                            href="/about"
                                         >
-                                            About Us
+                                            About
                                         </NavLink>
                                     </NavItem>
                                     <NavItem>
                                         <NavLink
-                                            href="http://blog.creative-tim.com?ref=adsr-footer"
-                                            target="_blank"
+                                            href="/products"
+                                        >
+                                            Products
+                                        </NavLink>
+                                    </NavItem>
+                                    <NavItem>
+                                        <NavLink
+                                            href="/blog"
                                         >
                                             Blog
                                         </NavLink>
                                     </NavItem>
                                     <NavItem>
                                         <NavLink
-                                            href="https://github.com/creativetimofficial/argon-design-system-react/blob/master/LICENSE.md"
+                                            href="/admin/"
                                             target="_blank"
                                         >
-                                            MIT License
+                                            Admin
                                         </NavLink>
                                     </NavItem>
                                 </Nav>
