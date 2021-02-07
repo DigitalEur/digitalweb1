@@ -4,40 +4,32 @@ import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 import {Card, CardBody} from "reactstrap";
 
 const FeatureGrid = ({gridItems}) => (
-    <div className="columns is-multiline">
+    <>
         {gridItems.map((item) => (
-            <div key={item.text} className="column is-6">
-                <section className="section">
-                    <Card className="shadow shadow-lg--hover mt-5">
-                        <CardBody>
-                            <div className="d-flex px-3">
-                                <div>
-                                    <div
-                                        className="icon icon-shape bg-gradient-success rounded-circle text-white">
-                                        <i className="ni ni-satisfied" />
-                                    </div>
-                                </div>
-                                <div className="pl-4">
-                                    {/*<PreviewCompatibleImage imageInfo={item} />*/}
-                                    <h5 className="title text-success">
-                                        {item.text}
-                                    </h5>
-                                    <p>{item.text}</p>
-                                    <a
-                                        className="text-success"
-                                        href="#pablo"
-                                        onClick={e => e.preventDefault()}
-                                    >
-                                        Learn more
-                                    </a>
-                                </div>
+            <div key={item.text} className="mb-3">
+                <Card className=" shadow shadow-lg--hover">
+                    <CardBody>
+                        <div className=" d-flex px-3">
+                            <div className=" pl-4">
+                                {/*<PreviewCompatibleImage imageInfo={item} />*/}
+                                <h5>
+                                    {item.text}
+                                </h5>
+                                <p>{item.text}</p>
+                                <a
+                                    className=" text-primary"
+                                    href="#pablo"
+                                    onClick={e => e.preventDefault()}
+                                >
+                                    Learn more
+                                </a>
                             </div>
-                        </CardBody>
-                    </Card>
-                </section>
+                        </div>
+                    </CardBody>
+                </Card>
             </div>
         ))}
-    </div>
+    </>
 )
 
 FeatureGrid.propTypes = {

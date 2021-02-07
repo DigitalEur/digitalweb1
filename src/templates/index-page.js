@@ -9,7 +9,6 @@ import Features from '../components/Features'
 import BlogRoll from '../components/BlogRoll'
 
 import Hero from "../components/IndexSections/Hero.js";
-import CardsFooter from "../components/Footers/CardsFooter";
 // index page sections
 import Download from "../components/IndexSections/Download.js";
 
@@ -29,7 +28,8 @@ import {
     FormGroup,
     Input,
     InputGroup,
-    InputGroupAddon, InputGroupText,
+    InputGroupAddon,
+    InputGroupText,
     Row
 } from "reactstrap";
 
@@ -984,71 +984,73 @@ export const IndexPageTemplate = ({
                 </Row>
             </Container>
 
+            <Container>
+                <Row className="row-grid align-items-center">
+                    <Features gridItems={intro.blurbs} />
+                </Row>
+            </Container>
+
 
             <div className="container">
                 <div className="section">
-                    <div className="columns">
-                        <div className="column is-10 is-offset-1">
-                            <div className="content">
-                                <div className="content">
-                                    <div className="tile">
-                                        <h1 className="title">{mainpitch.title}</h1>
+                    <Row className="row-grid align-items-center">
+
+                        <div className="tile">
+                            <h1 className="title">{mainpitch.title}</h1>
+                        </div>
+                        <div className="tile">
+                            <h3 className="subtitle">{mainpitch.description}</h3>
+                        </div>
+
+                        <div className="col-md-6 col-12 px-3">
+                            <Card className="shadow shadow-lg--hover mt-5">
+                                <CardBody>
+                                    <div className="d-flex px-3">
+                                        <div>
+                                            <div
+                                                className="icon icon-shape bg-gradient-success rounded-circle text-white">
+                                                <i className="ni ni-satisfied" />
+                                            </div>
+                                        </div>
+                                        <div className="pl-4">
+                                            <h5 className="title text-success">
+                                                {heading}
+                                            </h5>
+                                            <p>{description}</p>
+                                            <a
+                                                className="text-success"
+                                                href="#pablo"
+                                                onClick={e => e.preventDefault()}
+                                            >
+                                                Learn more
+                                            </a>
+                                        </div>
                                     </div>
-                                    <div className="tile">
-                                        <h3 className="subtitle">{mainpitch.description}</h3>
-                                    </div>
-                                </div>
-                                <div className="columns">
-                                    <div className="column is-12">
-                                        <Card className="shadow shadow-lg--hover mt-5">
-                                            <CardBody>
-                                                <div className="d-flex px-3">
-                                                    <div>
-                                                        <div
-                                                            className="icon icon-shape bg-gradient-success rounded-circle text-white">
-                                                            <i className="ni ni-satisfied" />
-                                                        </div>
-                                                    </div>
-                                                    <div className="pl-4">
-                                                        <h5 className="title text-success">
-                                                            {heading}
-                                                        </h5>
-                                                        <p>{description}</p>
-                                                        <a
-                                                            className="text-success"
-                                                            href="#pablo"
-                                                            onClick={e => e.preventDefault()}
-                                                        >
-                                                            Learn more
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </CardBody>
-                                        </Card>
-                                    </div>
-                                </div>
-                                <Features gridItems={intro.blurbs} />
-                                <div className="columns">
-                                    <div className="column is-12 has-text-centered">
-                                        <Link className="btn" to="/products">
-                                            See all products
-                                        </Link>
-                                    </div>
-                                </div>
-                                <div className="column is-12">
-                                    <h3 className="has-text-weight-semibold is-size-2">
-                                        Latest stories
-                                    </h3>
-                                    <BlogRoll />
-                                    <div className="column is-12 has-text-centered">
-                                        <Link className="btn" to="/blog">
-                                            Read more
-                                        </Link>
-                                    </div>
-                                </div>
+                                </CardBody>
+                            </Card>
+                        </div>
+
+                        <Features gridItems={intro.blurbs} />
+
+                        <div className="columns">
+                            <div className="column is-12 has-text-centered">
+                                <Link className="btn" to="/products">
+                                    See all products
+                                </Link>
                             </div>
                         </div>
-                    </div>
+                        <div className="column is-12">
+                            <h3 className="has-text-weight-semibold is-size-2">
+                                Latest stories
+                            </h3>
+                            <BlogRoll />
+                            <div className="column is-12 has-text-centered">
+                                <Link className="btn" to="/blog">
+                                    Read more
+                                </Link>
+                            </div>
+                        </div>
+                    </Row>
                 </div>
             </div>
         </section>
