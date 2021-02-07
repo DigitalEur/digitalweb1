@@ -33,6 +33,7 @@
     "react-dom": "^16.8.4",
     "react-helmet": "^6.0.0",
     "reactstrap": "^8.9.0",
+    "sharp": "^0.27.1",
     "uuid": "^7.0.0"
   },
   "keywords": [

@@ -24,7 +24,7 @@ class Hero extends React.Component {
     render() {
         return (
             <>
-                <div className="position-relative">
+                <div className="position-relative" >
                     {/* Hero for FREE version */}
                     <section className="section section-shaped">
                         {/* Background circles */}

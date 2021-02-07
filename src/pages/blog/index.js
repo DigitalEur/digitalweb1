@@ -3,12 +3,13 @@ import React from 'react'
 import Layout from '../../components/Layout'
 import BlogRoll from '../../components/BlogRoll'
 import MiniHero from "../../components/IndexSections/MiniHero.js";
+import {Row} from "reactstrap";
 
 export default class BlogIndexPage extends React.Component {
-  render() {
-    return (
-      <Layout>
-{/*        <div
+    render() {
+        return (
+            <Layout>
+                {/*        <div
           className="full-width-image-container margin-top-0 bg-gradient-primary"
           style={{
             //backgroundImage: `url('/img/blog-index.jpg')`,
@@ -27,16 +28,17 @@ export default class BlogIndexPage extends React.Component {
             Latest Stories
           </h1>
         </div>*/}
-          <MiniHero heading={"Blog"} />
-        <section className="section">
-          <div className="container">
-            <h1>Blog</h1>
-            <div className="content">
-              <BlogRoll />
-            </div>
-          </div>
-        </section>
-      </Layout>
-    )
-  }
+                <MiniHero heading={"Blog"} />
+                <section className="section pt-0">
+                    <div className="container pt-0">
+                        <div className="content pt-0">
+                            <Row>
+                                <BlogRoll />
+                            </Row>
+                        </div>
+                    </div>
+                </section>
+            </Layout>
+        )
+    }
 }
