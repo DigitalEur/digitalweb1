@@ -1,10 +1,13 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import Layout from '../../components/Layout'
+import MiniHero from "../../components/IndexSections/MiniHero";
 
 export default class Index extends React.Component {
   render() {
     return (
+        <>
+        <MiniHero heading={"Example Page"} />
       <Layout>
         <section className="section">
           <div className="container">
@@ -45,6 +48,7 @@ export default class Index extends React.Component {
           </div>
         </section>
       </Layout>
+  </>
     )
   }
 }
