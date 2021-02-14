@@ -45,13 +45,13 @@ class Hero extends React.Component {
                         <Container className="shape-container d-flex align-items-center py-lg">
                             <div className="col px-0">
                                 <Row className="align-items-center justify-content-center">
-                                    <Col className="text-center" lg="6">
+                                    <Col className="text-center" lg="12">
                                         <img src={Logo} alt="Logo" style={{width: "200px"}}/>
-                                        <p className="lead text-white">
-                                            <p style={{fontSize: "50px", fontFamily: "bold"}}>
-                                            {this.props.heading}
-                                            </p>
-                                            <br />
+                                        <h1 className="display-1 text-white mt-5">
+                                        {this.props.heading}
+                                        </h1>
+                                        <br />
+                                        <p className="display-4 text-white">
                                             {this.props.subheading}
                                         </p>
                                     </Col>
@@ -68,10 +68,7 @@ class Hero extends React.Component {
                                 x="0"
                                 y="0"
                             >
-                                <polygon
-                                    className="fill-white"
-                                    points="2560 0 2560 100 0 100"
-                                />
+                                <ellipse cx="2560" cy="100" rx="3000" ry="100" className="fill-white" />
                             </svg>
                         </div>
                     </section>
