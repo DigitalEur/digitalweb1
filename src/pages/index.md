@@ -2,8 +2,8 @@
 templateKey: index-page
 title: Great coffee with a conscience
 image: /img/home-jumbotron.jpg
-heading: A beautiful Design System for Bootstrap 4.
-subheading: It's Free and Open Source.
+heading: Affida il tuo business ad Europa 
+subheading: Web marketing, comunicazione e molto altro
 mainpitch:
   title: Why Kaldi
   description: >
