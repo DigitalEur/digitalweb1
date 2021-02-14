@@ -40,6 +40,7 @@ import {
 } from "reactstrap";
 
 import {Link} from 'gatsby'
+import Logo from "../../assets/img/brand/EU_WHITE_DIG.svg";
 
 class DemoNavbar extends React.Component {
     componentDidMount() {
@@ -76,10 +77,7 @@ class DemoNavbar extends React.Component {
                     >
                         <Container>
                             <NavbarBrand className="mr-lg-5" to="/" tag={Link}>
-                                <img
-                                    alt="..."
-                                    src={require("../../assets/img/brand/argon-react-white.png")}
-                                />
+                                <img src={Logo} alt="Logo"/>
                             </NavbarBrand>
                             <button className="navbar-toggler" id="navbar_global">
                                 <span className="navbar-toggler-icon" />
