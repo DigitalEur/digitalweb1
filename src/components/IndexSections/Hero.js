@@ -16,6 +16,7 @@
 
 */
 import React from "react";
+import Logo from '../../assets/img/brand/EU_WHITE_DIG.svg';
 
 // reactstrap components
 import {Button, Col, Container, Row} from "reactstrap";
@@ -44,12 +45,7 @@ class Hero extends React.Component {
                             <div className="col px-0">
                                 <Row className="align-items-center justify-content-center">
                                     <Col className="text-center" lg="6">
-                                        <img
-                                            alt="..."
-                                            className="img-fluid"
-                                            src={require("../../assets/img/brand/argon-react-white.png")}
-                                            style={{width: "200px"}}
-                                        />
+                                        <img src={Logo} alt="Logo" style={{width: "200px"}}/>
                                         <p className="lead text-white">
                                             {this.props.heading}
                                             <br />
