@@ -46,6 +46,247 @@ export const IndexPageTemplate = ({
     <div>
         <main>
             <Hero heading={heading} subheading={subheading} />
+            <section className="section section-lg">
+                <Container>
+                    <Row className="row-grid align-items-center">
+                        <Col className="order-md-2" md="6">
+                            <img
+                                alt="..."
+                                className="img-fluid floating"
+                                src={require("../img/Programming-pana.svg")}
+                            />
+                        </Col>
+                        <Col className="order-md-1" md="6">
+                            <div className="pr-md-5">
+                                <div className="icon icon-lg icon-shape icon-shape-success shadow rounded-circle mb-5">
+                                    <i className="ni ni-laptop" />
+                                </div>
+                                <h3>I nostri servizi</h3>
+                                <p>
+                                    Offriamo diversi servizi in ambito digital che ti consentiranno di sfruttare
+                                    tutte le possibilità che offre il web.
+                                </p>
+                                <ul className="list-unstyled mt-5">
+                                    <li className="py-2">
+                                        <div className="d-flex align-items-center">
+                                            <div>
+                                                <Badge
+                                                    className="badge-circle mr-3"
+                                                    color="success"
+                                                >
+                                                    <i className="ni ni-settings-gear-65" />
+                                                </Badge>
+                                            </div>
+                                            <div>
+                                                <h6 className="mb-0">
+                                                    Realizzazione siti web
+                                                </h6>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li className="py-2">
+                                        <div className="d-flex align-items-center">
+                                            <div>
+                                                <Badge
+                                                    className="badge-circle mr-3"
+                                                    color="success"
+                                                >
+                                                    <i className="ni ni-html5" />
+                                                </Badge>
+                                            </div>
+                                            <div>
+                                                <h6 className="mb-0">Posizionamento SEO</h6>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li className="py-2">
+                                        <div className="d-flex align-items-center">
+                                            <div>
+                                                <Badge
+                                                    className="badge-circle mr-3"
+                                                    color="success"
+                                                >
+                                                    <i className="ni ni-bullet-list-67" />
+                                                </Badge>
+                                            </div>
+                                            <div>
+                                                <h6 className="mb-0">
+                                                    Search Advertising
+                                                </h6>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li className="py-2">
+                                        <div className="d-flex align-items-center">
+                                            <div>
+                                                <Badge
+                                                    className="badge-circle mr-3"
+                                                    color="success"
+                                                >
+                                                    <i className="ni ni-single-02" />
+                                                </Badge>
+                                            </div>
+                                            <div>
+                                                <h6 className="mb-0">
+                                                    Social Advertising
+                                                </h6>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li className="py-2">
+                                        <div className="d-flex align-items-center">
+                                            <div>
+                                                <Badge
+                                                    className="badge-circle mr-3"
+                                                    color="success"
+                                                >
+                                                    <i className="ni ni-notification-70" />
+                                                </Badge>
+                                            </div>
+                                            <div>
+                                                <h6 className="mb-0">
+                                                    Display Advertising
+                                                </h6>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li className="py-2">
+                                        <div className="d-flex align-items-center">
+                                            <div>
+                                                <Badge
+                                                    className="badge-circle mr-3"
+                                                    color="success"
+                                                >
+                                                    <i className="ni ni-tag" />
+                                                </Badge>
+                                            </div>
+                                            <div>
+                                                <h6 className="mb-0">
+                                                    Retargeting strategy
+                                                </h6>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li className="py-2">
+                                        <div className="d-flex align-items-center">
+                                            <div>
+                                                <Badge
+                                                    className="badge-circle mr-3"
+                                                    color="success"
+                                                >
+                                                    <i className="ni ni-satisfied" />
+                                                </Badge>
+                                            </div>
+                                            <div>
+                                                <h6 className="mb-0">
+                                                    Generazione contatti
+                                                </h6>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li className="py-2">
+                                        <div className="d-flex align-items-center">
+                                            <div>
+                                                <Badge
+                                                    className="badge-circle mr-3"
+                                                    color="success"
+                                                >
+                                                    <i className="ni ni-vector" />
+                                                </Badge>
+                                            </div>
+                                            <div>
+                                                <h6 className="mb-0">
+                                                    Link Building
+                                                </h6>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li className="py-2">
+                                        <div className="d-flex align-items-center">
+                                            <div>
+                                                <Badge
+                                                    className="badge-circle mr-3"
+                                                    color="success"
+                                                >
+                                                    <i className="ni ni-email-83" />
+                                                </Badge>
+                                            </div>
+                                            <div>
+                                                <h6 className="mb-0">
+                                                    E-mail marketing
+                                                </h6>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </Col>
+                    </Row>
+                </Container>
+            </section>
+            <section className="section bg-secondary">
+                <Container>
+                    <Row className="row-grid align-items-center">
+                        <Col md="6">
+                            <Card className="bg-default shadow border-0">
+                                <CardImg
+                                    alt="..."
+                                    src={require("../assets/img/theme/img-1-1200x1000.jpg")}
+                                    top
+                                />
+                                <blockquote className="card-blockquote">
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        className="svg-bg"
+                                        preserveAspectRatio="none"
+                                        viewBox="0 0 583 95"
+                                    >
+                                        <polygon
+                                            className="fill-default"
+                                            points="0,52 583,95 0,95"
+                                        />
+                                        <polygon
+                                            className="fill-default"
+                                            opacity=".2"
+                                            points="0,42 583,95 683,0 0,95"
+                                        />
+                                    </svg>
+                                    <h4 className="display-3 font-weight-bold text-white">
+                                        {picture.title}
+                                    </h4>
+                                    <p className="lead text-italic text-white">
+                                        {picture.description}
+                                    </p>
+                                </blockquote>
+                            </Card>
+                        </Col>
+                        <Col md="6">
+                            <div className="pl-md-5">
+                                <div className="icon icon-lg icon-shape icon-shape-warning shadow rounded-circle mb-5">
+                                    <i className="ni ni-settings" />
+                                </div>
+                                <h3>{mainpitch.title}</h3>
+                                <p className="lead">
+                                    {mainpitch.description}
+                                </p>
+                                <p>
+                                    {mainpitch.first_paragraph}
+                                </p>
+                                <p>
+                                    {mainpitch.second_paragraph}
+                                </p>
+                                <a
+                                    className="font-weight-bold text-warning mt-5"
+                                    href="#pablo"
+                                    onClick={e => e.preventDefault()}
+                                >
+                                    A beautiful UI Kit for impactful websites
+                                </a>
+                            </div>
+                        </Col>
+                    </Row>
+                </Container>
+            </section>
             <div className="position-relative">
                 {/* shape Hero */}
                 <section className="section section-lg section-shaped pb-250">
@@ -182,146 +423,6 @@ export const IndexPageTemplate = ({
                                     </Card>
                                 </Col>
                             </Row>
-                        </Col>
-                    </Row>
-                </Container>
-            </section>
-            <section className="section bg-secondary">
-                <Container>
-                    <Row className="row-grid align-items-center">
-                        <Col md="6">
-                            <Card className="bg-default shadow border-0">
-                                <CardImg
-                                    alt="..."
-                                    src={require("../assets/img/theme/img-1-1200x1000.jpg")}
-                                    top
-                                />
-                                <blockquote className="card-blockquote">
-                                    <svg
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        className="svg-bg"
-                                        preserveAspectRatio="none"
-                                        viewBox="0 0 583 95"
-                                    >
-                                        <polygon
-                                            className="fill-default"
-                                            points="0,52 583,95 0,95"
-                                        />
-                                        <polygon
-                                            className="fill-default"
-                                            opacity=".2"
-                                            points="0,42 583,95 683,0 0,95"
-                                        />
-                                    </svg>
-                                    <h4 className="display-3 font-weight-bold text-white">
-                                        {picture.title}
-                                    </h4>
-                                    <p className="lead text-italic text-white">
-                                        {picture.description}
-                                    </p>
-                                </blockquote>
-                            </Card>
-                        </Col>
-                        <Col md="6">
-                            <div className="pl-md-5">
-                                <div className="icon icon-lg icon-shape icon-shape-warning shadow rounded-circle mb-5">
-                                    <i className="ni ni-settings" />
-                                </div>
-                                <h3>{mainpitch.title}</h3>
-                                <p className="lead">
-                                    {mainpitch.description}
-                                </p>
-                                <p>
-                                    {mainpitch.first_paragraph}
-                                </p>
-                                <p>
-                                    {mainpitch.second_paragraph}
-                                </p>
-                                <a
-                                    className="font-weight-bold text-warning mt-5"
-                                    href="#pablo"
-                                    onClick={e => e.preventDefault()}
-                                >
-                                    A beautiful UI Kit for impactful websites
-                                </a>
-                            </div>
-                        </Col>
-                    </Row>
-                </Container>
-            </section>
-            <section className="section section-lg">
-                <Container>
-                    <Row className="row-grid align-items-center">
-                        <Col className="order-md-2" md="6">
-                            <img
-                                alt="..."
-                                className="img-fluid floating"
-                                src={require("../assets/img/theme/promo-1.png")}
-                            />
-                        </Col>
-                        <Col className="order-md-1" md="6">
-                            <div className="pr-md-5">
-                                <div className="icon icon-lg icon-shape icon-shape-success shadow rounded-circle mb-5">
-                                    <i className="ni ni-settings-gear-65" />
-                                </div>
-                                <h3>Awesome features</h3>
-                                <p>
-                                    The kit comes with three pre-built pages to help you get
-                                    started faster. You can change the text and images and
-                                    you're good to go.
-                                </p>
-                                <ul className="list-unstyled mt-5">
-                                    <li className="py-2">
-                                        <div className="d-flex align-items-center">
-                                            <div>
-                                                <Badge
-                                                    className="badge-circle mr-3"
-                                                    color="success"
-                                                >
-                                                    <i className="ni ni-settings-gear-65" />
-                                                </Badge>
-                                            </div>
-                                            <div>
-                                                <h6 className="mb-0">
-                                                    Carefully crafted components
-                                                </h6>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li className="py-2">
-                                        <div className="d-flex align-items-center">
-                                            <div>
-                                                <Badge
-                                                    className="badge-circle mr-3"
-                                                    color="success"
-                                                >
-                                                    <i className="ni ni-html5" />
-                                                </Badge>
-                                            </div>
-                                            <div>
-                                                <h6 className="mb-0">Amazing page examples</h6>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li className="py-2">
-                                        <div className="d-flex align-items-center">
-                                            <div>
-                                                <Badge
-                                                    className="badge-circle mr-3"
-                                                    color="success"
-                                                >
-                                                    <i className="ni ni-satisfied" />
-                                                </Badge>
-                                            </div>
-                                            <div>
-                                                <h6 className="mb-0">
-                                                    Super friendly support team
-                                                </h6>
-                                            </div>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
                         </Col>
                     </Row>
                 </Container>

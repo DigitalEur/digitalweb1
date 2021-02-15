@@ -47,11 +47,10 @@ class Hero extends React.Component {
                                 <Row className="align-items-center justify-content-center">
                                     <Col className="text-center" lg="12">
                                         <img src={Logo} alt="Logo" style={{width: "200px"}}/>
-                                        <h1 className="display-1 text-white mt-5">
+                                        <p className="text-white mt-5" style={{fontFamily: "Roboto", fontWeight: "bold", fontSize: 50}}>
                                         {this.props.heading}
-                                        </h1>
-                                        <br />
-                                        <p className="display-4 text-white">
+                                        </p>
+                                        <p className="text-white" style={{fontFamily: "Roboto", fontWeight: "medium", fontSize: 30}}>
                                             {this.props.subheading}
                                         </p>
                                     </Col>
