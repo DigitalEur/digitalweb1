@@ -5,7 +5,7 @@ image: /img/home-jumbotron.jpg
 heading: Affida il tuo business ad Europa 
 subheading: Web marketing, comunicazione e molto altro
 mainpitch:
-  title: Why Kaldi
+  title: I nostri clienti
   description: >
     Kaldi is the coffee store for everyone who believes that great coffee
     shouldn't just taste good, it should do good too. We source all of our beans
@@ -20,7 +20,7 @@ mainpitch:
     started faster. You can change the text and images and
     you're good to go.
 picture:
-  title: Picture title
+  title: Titolo della foto
   description: >
     The Arctic Ocean freezes every winter and much of the
     sea-ice then thaws every summer, and that process will

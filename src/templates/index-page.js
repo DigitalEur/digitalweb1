@@ -427,77 +427,6 @@ export const IndexPageTemplate = ({
                     </Row>
                 </Container>
             </section>
-            <section className="section bg-secondary">
-                <Container>
-                    <Row className="row-grid align-items-center">
-                        <Col md="6">
-                            <Card className="bg-default shadow border-0">
-                                <CardImg
-                                    alt="..."
-                                    src={require("../assets/img/theme/img-1-1200x1000.jpg")}
-                                    top
-                                />
-                                <blockquote className="card-blockquote">
-                                    <svg
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        className="svg-bg"
-                                        preserveAspectRatio="none"
-                                        viewBox="0 0 583 95"
-                                    >
-                                        <polygon
-                                            className="fill-default"
-                                            points="0,52 583,95 0,95"
-                                        />
-                                        <polygon
-                                            className="fill-default"
-                                            opacity=".2"
-                                            points="0,42 583,95 683,0 0,95"
-                                        />
-                                    </svg>
-                                    <h4 className="display-3 font-weight-bold text-white">
-                                        Design System
-                                    </h4>
-                                    <p className="lead text-italic text-white">
-                                        The Arctic Ocean freezes every winter and much of the
-                                        sea-ice then thaws every summer, and that process will
-                                        continue whatever happens.
-                                    </p>
-                                </blockquote>
-                            </Card>
-                        </Col>
-                        <Col md="6">
-                            <div className="pl-md-5">
-                                <div className="icon icon-lg icon-shape icon-shape-warning shadow rounded-circle mb-5">
-                                    <i className="ni ni-settings" />
-                                </div>
-                                <h3>Our customers</h3>
-                                <p className="lead">
-                                    Don't let your uses guess by attaching tooltips and
-                                    popoves to any element. Just make sure you enable them
-                                    first via JavaScript.
-                                </p>
-                                <p>
-                                    The kit comes with three pre-built pages to help you get
-                                    started faster. You can change the text and images and
-                                    you're good to go.
-                                </p>
-                                <p>
-                                    The kit comes with three pre-built pages to help you get
-                                    started faster. You can change the text and images and
-                                    you're good to go.
-                                </p>
-                                <a
-                                    className="font-weight-bold text-warning mt-5"
-                                    href="#pablo"
-                                    onClick={e => e.preventDefault()}
-                                >
-                                    A beautiful UI Kit for impactful websites
-                                </a>
-                            </div>
-                        </Col>
-                    </Row>
-                </Container>
-            </section>
             <section className="section pb-0 bg-gradient-warning">
                 <Container>
                     <Row className="row-grid align-items-center">
@@ -519,7 +448,7 @@ export const IndexPageTemplate = ({
                                     </div>
                                 </div>
                                 <div className="pl-4">
-                                    <h4 className="display-3 text-white">Modern Interface</h4>
+                                    <h4 className="display-3 text-white">Interfaccia moderna</h4>
                                     <p className="text-white">
                                         The Arctic Ocean freezes every winter and much of the
                                         sea-ice then thaws every summer, and that process will
@@ -609,7 +538,7 @@ export const IndexPageTemplate = ({
                 <Container>
                     <Row className="justify-content-center text-center mb-lg">
                         <Col lg="8">
-                            <h2 className="display-3">The amazing Team</h2>
+                            <h2 className="display-3">Un team incredibile</h2>
                             <p className="lead text-muted">
                                 According to the National Oceanic and Atmospheric
                                 Administration, Ted, Scambos, NSIDClead scentist, puts the
@@ -826,7 +755,7 @@ export const IndexPageTemplate = ({
                 <Container className="pt-lg pb-300">
                     <Row className="text-center justify-content-center">
                         <Col lg="10">
-                            <h2 className="display-3 text-white">Build something</h2>
+                            <h2 className="display-3 text-white">Costruiamo qualcosa insieme</h2>
                             <p className="lead text-white">
                                 According to the National Oceanic and Atmospheric
                                 Administration, Ted, Scambos, NSIDClead scentist, puts the
@@ -894,9 +823,9 @@ export const IndexPageTemplate = ({
                         <Col lg="8">
                             <Card className="bg-gradient-secondary shadow">
                                 <CardBody className="p-lg-5">
-                                    <h4 className="mb-1">Want to work with us?</h4>
+                                    <h4 className="mb-1">Vuoi lavorare con noi?</h4>
                                     <p className="mt-0">
-                                        Your project is very important to us.
+                                        Ci prenderemo cura del tuo progetto.
                                     </p>
                                     <FormGroup
                                         className={classnames("mt-5")}
@@ -908,7 +837,7 @@ export const IndexPageTemplate = ({
                                                 </InputGroupText>
                                             </InputGroupAddon>
                                             <Input
-                                                placeholder="Your name"
+                                                placeholder="Inserisci il tuo nome"
                                                 type="text"
                                             />
                                         </InputGroup>
@@ -921,7 +850,7 @@ export const IndexPageTemplate = ({
                                                 </InputGroupText>
                                             </InputGroupAddon>
                                             <Input
-                                                placeholder="Email address"
+                                                placeholder="Inserisci la tua email"
                                                 type="email"
                                             />
                                         </InputGroup>
@@ -931,7 +860,7 @@ export const IndexPageTemplate = ({
                                             className="form-control-alternative"
                                             cols="80"
                                             name="name"
-                                            placeholder="Type a message..."
+                                            placeholder="Inserisci un messaggio..."
                                             rows="4"
                                             type="textarea"
                                         />
@@ -944,7 +873,7 @@ export const IndexPageTemplate = ({
                                             size="lg"
                                             type="button"
                                         >
-                                            Send Message
+                                            Invia
                                         </Button>
                                     </div>
                                 </CardBody>
@@ -953,138 +882,7 @@ export const IndexPageTemplate = ({
                     </Row>
                 </Container>
             </section>
-            <Download />
         </main>
-        <section className="section section--gradient">
-            <Container>
-                <Row className="row-grid align-items-center">
-                    <div className="col-md-6 col-12 px-3">
-                        <Card className="shadow shadow-lg--hover">
-                            <CardBody>
-                                <div className="d-flex px-3">
-                                    <div>
-                                        <div
-                                            className="icon icon-shape bg-gradient-success rounded-circle text-white">
-                                            <i className="ni ni-satisfied" />
-                                        </div>
-                                    </div>
-                                    <div className="pl-4">
-                                        <h5 className="title text-success">
-                                            Awesome Support
-                                        </h5>
-                                        <p>
-                                            The Arctic Ocean freezes every winter and much of
-                                            the sea-ice then thaws every summer, and that
-                                            process will continue whatever.
-                                        </p>
-                                        <a
-                                            className="text-success"
-                                            href="#pablo"
-                                            onClick={e => e.preventDefault()}
-                                        >
-                                            Learn more
-                                        </a>
-                                    </div>
-                                </div>
-                            </CardBody>
-                        </Card>
-                    </div>
-                    <div className="col-md-6 col-12 p-3">
-                        <Card className="shadow shadow-lg--hover">
-                            <CardBody>
-                                <div className="d-flex px-3">
-                                    <div>
-                                        <div
-                                            className="icon icon-shape bg-gradient-warning rounded-circle text-white">
-                                            <i className="ni ni-active-40" />
-                                        </div>
-                                    </div>
-                                    <div className="pl-4">
-                                        <h5 className="title text-warning">
-                                            Modular Components
-                                        </h5>
-                                        <p>
-                                            The Arctic Ocean freezes every winter and much of
-                                            the sea-ice then thaws every summer, and that
-                                            process will continue whatever.
-                                        </p>
-                                        <a
-                                            className="text-warning"
-                                            href="#pablo"
-                                            onClick={e => e.preventDefault()}
-                                        >
-                                            Learn more
-                                        </a>
-                                    </div>
-                                </div>
-                            </CardBody>
-                        </Card>
-                    </div>
-                    <div className="col-md-6 col-12 p-3">
-                        <Card className="shadow shadow-lg--hover">
-                            <CardBody>
-                                <div className="d-flex px-3">
-                                    <div>
-                                        <div
-                                            className="icon icon-shape bg-gradient-info rounded-circle text-white">
-                                            <i className="ni ni-air-baloon" />
-                                        </div>
-                                    </div>
-                                    <div className="pl-4">
-                                        <h5 className="title text-info">
-                                            Awesome Support
-                                        </h5>
-                                        <p>
-                                            The Arctic Ocean freezes every winter and much of
-                                            the sea-ice then thaws every summer, and that
-                                            process will continue whatever.
-                                        </p>
-                                        <a
-                                            className="text-info"
-                                            href="#pablo"
-                                            onClick={e => e.preventDefault()}
-                                        >
-                                            Learn more
-                                        </a>
-                                    </div>
-                                </div>
-                            </CardBody>
-                        </Card>
-                    </div>
-                    <div className="col-md-6 col-12 px-3">
-                        <Card className="shadow shadow-lg--hover">
-                            <CardBody>
-                                <div className="d-flex px-3">
-                                    <div>
-                                        <div
-                                            className="icon icon-shape bg-gradient-primary rounded-circle text-white">
-                                            <i className="ni ni-badge" />
-                                        </div>
-                                    </div>
-                                    <div className="pl-4">
-                                        <h5 className="title text-primary">
-                                            Modular Components
-                                        </h5>
-                                        <p>
-                                            The Arctic Ocean freezes every winter and much of
-                                            the sea-ice then thaws every summer, and that
-                                            process will continue whatever.
-                                        </p>
-                                        <a
-                                            className="text-primary"
-                                            href="#pablo"
-                                            onClick={e => e.preventDefault()}
-                                        >
-                                            Learn more
-                                        </a>
-                                    </div>
-                                </div>
-                            </CardBody>
-                        </Card>
-                    </div>
-                </Row>
-            </Container>
-        </section>
     </div>
 )
 
