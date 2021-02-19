@@ -21,13 +21,8 @@ import React from "react";
 import Headroom from "headroom.js";
 // reactstrap components
 import {
-    Button,
     Col,
     Container,
-    DropdownItem,
-    DropdownMenu,
-    DropdownToggle,
-    Media,
     Nav,
     Navbar,
     NavbarBrand,
@@ -35,7 +30,6 @@ import {
     NavLink,
     Row,
     UncontrolledCollapse,
-    UncontrolledDropdown,
     UncontrolledTooltip
 } from "reactstrap";
 
@@ -77,7 +71,7 @@ class DemoNavbar extends React.Component {
                     >
                         <Container>
                             <NavbarBrand className="mr-lg-5" to="/" tag={Link}>
-                                <img src={Logo} alt="Logo"/>
+                                <img src={Logo} alt="Logo" />
                             </NavbarBrand>
                             <button className="navbar-toggler" id="navbar_global">
                                 <span className="navbar-toggler-icon" />
@@ -95,7 +89,7 @@ class DemoNavbar extends React.Component {
                                             <Link to="/">
                                                 <img
                                                     alt="..."
-                                                    src={require("../../assets/img/brand/argon-react.png")}
+                                                    src={require("../../assets/img/brand/EU_COLOR_DIG.svg")}
                                                 />
                                             </Link>
                                         </Col>
@@ -109,21 +103,21 @@ class DemoNavbar extends React.Component {
                                 </div>
                                 <Nav className="navbar-nav-hover align-items-lg-center" navbar>
 
-                                            <NavLink to="/about" tag={Link}>
-                                                About
-                                            </NavLink>
-                                            <NavLink to="/products" tag={Link}>
-                                                Products
-                                            </NavLink>
-                                            <NavLink to="/blog" tag={Link}>
-                                                Blog
-                                            </NavLink>
-                                            <NavLink to="/contact" tag={Link}>
-                                                Contact
-                                            </NavLink>
-                                            <NavLink to="/contact/examples" tag={Link}>
-                                                Examples
-                                            </NavLink>
+                                    <NavLink to="/about" tag={Link}>
+                                        About
+                                    </NavLink>
+                                    <NavLink to="/products" tag={Link}>
+                                        Products
+                                    </NavLink>
+                                    <NavLink to="/blog" tag={Link}>
+                                        Blog
+                                    </NavLink>
+                                    <NavLink to="/contact" tag={Link}>
+                                        Contact
+                                    </NavLink>
+                                    <NavLink to="/contact/examples" tag={Link}>
+                                        Examples
+                                    </NavLink>
                                 </Nav>
                                 <Nav className="align-items-lg-center ml-lg-auto" navbar>
                                     <NavItem>
