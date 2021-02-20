@@ -118,7 +118,8 @@ export const servicePageQuery = graphql`
                 }
               }
             }
-            text
+            title
+            description
           }
           heading
           description
@@ -155,27 +156,6 @@ export const servicePageQuery = graphql`
                 }
               }
             }
-          }
-        }
-        testimonials {
-          author
-          quote
-        }
-        full_image {
-          childImageSharp {
-            fluid(maxWidth: 2048, quality: 100) {
-              ...GatsbyImageSharpFluid
-            }
-          }
-        }
-        pricing {
-          heading
-          description
-          plans {
-            description
-            items
-            plan
-            price
           }
         }
       }

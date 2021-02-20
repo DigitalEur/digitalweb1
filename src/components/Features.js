@@ -6,16 +6,16 @@ import {Card, CardBody} from "reactstrap";
 const FeatureGrid = ({gridItems}) => (
     <>
         {gridItems.map((item) => (
-            <div key={item.text} className="mb-5">
+            <div key={item.title} className="mb-5">
                 <Card className=" shadow shadow-lg--hover">
                     <CardBody>
                         <div className=" d-flex p-3">
-                            <div>
+                            <div id={item.title.toLowerCase().replace(/ /g,"-")}>
                                 {/*<PreviewCompatibleImage imageInfo={item} />*/}
                                 <h5>
-                                    {item.text}
+                                    {item.title}
                                 </h5>
-                                <p>{item.text}</p>
+                                <p>{item.description}</p>
                                 <a
                                     className=" text-primary"
                                     href="#pablo"
