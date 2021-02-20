@@ -103,20 +103,20 @@ class DemoNavbar extends React.Component {
                                 </div>
                                 <Nav className="navbar-nav-hover align-items-lg-center" navbar>
 
-                                    <NavLink to="/services" tag={Link}>
-                                        Services
+                                    <NavLink to="/servizi" tag={Link}>
+                                        Servizi
                                     </NavLink>
                                     <NavLink to="/blog" tag={Link}>
                                         Blog
                                     </NavLink>
-                                    <NavLink to="/contact" tag={Link}>
-                                        Contact
+                                    <NavLink to="/contatti" tag={Link}>
+                                        Contatti
                                     </NavLink>
                                     <NavLink to="/about" tag={Link}>
-                                        About
+                                        Su di noi
                                     </NavLink>
-                                    <NavLink to="/contact/examples" tag={Link}>
-                                        Examples
+                                    <NavLink to="/contatti/examples" tag={Link}>
+                                        Esempi
                                     </NavLink>
                                 </Nav>
                                 <Nav className="align-items-lg-center ml-lg-auto" navbar>
