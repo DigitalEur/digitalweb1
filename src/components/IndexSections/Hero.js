@@ -19,7 +19,7 @@ import React from "react";
 import Logo from '../../assets/img/brand/EU_WHITE_DIG.svg';
 
 // reactstrap components
-import {Button, Col, Container, Row} from "reactstrap";
+import {Col, Container, Row} from "reactstrap";
 
 class Hero extends React.Component {
     render() {
@@ -30,27 +30,29 @@ class Hero extends React.Component {
                     <section className="section section-hero section-shaped">
                         {/* Background circles */}
                         <div className="shape shape-style-1 shape-default">
-                            <span className="span-150" />
-                            <span className="span-180" />
-                            <span className="span-50" />
-                            <span className="span-50" />
-                            <span className="span-75" />
-                            <span className="span-100" />
-                            <span className="span-75" />
-                            <span className="span-50" />
-                            <span className="span-100" />
-                            <span className="span-50" />
-                            <span className="span-100" />
+                            <span className="span-150 floating" />
+                            <span className="span-180 floating" />
+                            <span className="span-50 floating" />
+                            <span className="span-50 floating" />
+                            <span className="span-75 floating" />
+                            <span className="span-100 floating" />
+                            <span className="span-75 floating" />
+                            <span className="span-50 floating" />
+                            <span className="span-100 floating" />
+                            <span className="span-50 floating" />
+                            <span className="span-100 floating" />
                         </div>
                         <Container className="shape-container d-flex align-items-center py-lg">
                             <div className="col px-0">
                                 <Row className="align-items-center justify-content-center">
                                     <Col className="text-center" lg="12">
-                                        <img src={Logo} alt="Logo" style={{width: "200px"}}/>
-                                        <p className="text-white mt-5" style={{fontFamily: "Roboto", fontWeight: "bold", fontSize: 50}}>
-                                        {this.props.heading}
+                                        <img src={Logo} alt="Logo" style={{width: "200px"}} />
+                                        <p className="text-white mt-5"
+                                           style={{fontFamily: "Roboto", fontWeight: "bold", fontSize: 50}}>
+                                            {this.props.heading}
                                         </p>
-                                        <p className="text-white" style={{fontFamily: "Roboto", fontWeight: "medium", fontSize: 30}}>
+                                        <p className="text-white"
+                                           style={{fontFamily: "Roboto", fontWeight: "medium", fontSize: 30}}>
                                             {this.props.subheading}
                                         </p>
                                     </Col>
