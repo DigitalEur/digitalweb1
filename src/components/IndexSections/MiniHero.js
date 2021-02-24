@@ -41,7 +41,7 @@ class Hero extends React.Component {
                             <span className="span-100" />
                         </div>
                         <Container className="">
-                            <div className="col px-0">
+                            <div className="col px-0 mt-5">
                                 <Row className="align-items-center justify-content-center">
                                     <Col className="text-center" lg="6">
                                         <h1 className="text-white">
