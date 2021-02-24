@@ -230,7 +230,7 @@ export const IndexPageTemplate = ({
                             <Card className="bg-default shadow border-0">
                                 <CardImg
                                     alt="..."
-                                    src={require("../assets/img/theme/img-1-1200x1000.jpg")}
+                                    src={require("../assets/img/theme/milano-galleria.jpg")}
                                     top
                                 />
                                 <blockquote className="card-blockquote">
@@ -279,7 +279,7 @@ export const IndexPageTemplate = ({
                                     href="#pablo"
                                     onClick={e => e.preventDefault()}
                                 >
-                                    A beautiful UI Kit for impactful websites
+                                    Contattaci per un appuntamento in sede
                                 </a>
                             </div>
                         </Col>

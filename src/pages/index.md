@@ -11,6 +11,8 @@ mainpitch:
     shouldn't just taste good, it should do good too. We source all of our beans
     directly from small scale sustainable farmers and make sure part of the
     profits are reinvested in their communities.
+    Kaldi is the coffee store for everyone who believes that great coffee
+    shouldn't just taste good, it should do good too.
   first_paragraph: >
     The kit comes with three pre-built pages to help you get
     started faster. You can change the text and images and
@@ -20,11 +22,9 @@ mainpitch:
     started faster. You can change the text and images and
     you're good to go.
 picture:
-  title: Titolo della foto
+  title: Sede a Milano
   description: >
-    The Arctic Ocean freezes every winter and much of the
-    sea-ice then thaws every summer, and that process will
-    continue whatever happens.
+    La città delle opportunità
 description: >-
   Kaldi is the ultimate spot for coffee lovers who want to learn about their
   java’s origin and support the farmers that grew it. We take coffee production,
