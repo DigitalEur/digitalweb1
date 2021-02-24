@@ -78,9 +78,12 @@ export const IndexPageTemplate = ({
                                                 </Badge>
                                             </div>
                                             <div>
-                                                <h6 className="mb-0">
+                                                <Link
+                                                    className=" text-primary"
+                                                    to={'/servizi/realizzazione-siti-web'}
+                                                >
                                                     Realizzazione siti web
-                                                </h6>
+                                                </Link>
                                             </div>
                                         </div>
                                     </li>
@@ -95,7 +98,12 @@ export const IndexPageTemplate = ({
                                                 </Badge>
                                             </div>
                                             <div>
-                                                <h6 className="mb-0">Posizionamento SEO</h6>
+                                                <Link
+                                                    className=" text-primary"
+                                                    to={'/servizi/posizionamento-seo'}
+                                                >
+                                                    Posizionamento SEO
+                                                </Link>
                                             </div>
                                         </div>
                                     </li>
@@ -110,9 +118,12 @@ export const IndexPageTemplate = ({
                                                 </Badge>
                                             </div>
                                             <div>
-                                                <h6 className="mb-0">
+                                                <Link
+                                                    className=" text-primary"
+                                                    to={'/servizi/search-advertising'}
+                                                >
                                                     Search Advertising
-                                                </h6>
+                                                </Link>
                                             </div>
                                         </div>
                                     </li>
@@ -127,9 +138,12 @@ export const IndexPageTemplate = ({
                                                 </Badge>
                                             </div>
                                             <div>
-                                                <h6 className="mb-0">
+                                                <Link
+                                                    className=" text-primary"
+                                                    to={'/servizi/social-advertising'}
+                                                >
                                                     Social Advertising
-                                                </h6>
+                                                </Link>
                                             </div>
                                         </div>
                                     </li>
@@ -144,9 +158,12 @@ export const IndexPageTemplate = ({
                                                 </Badge>
                                             </div>
                                             <div>
-                                                <h6 className="mb-0">
+                                                <Link
+                                                    className=" text-primary"
+                                                    to={'/servizi/display-advertising'}
+                                                >
                                                     Display Advertising
-                                                </h6>
+                                                </Link>
                                             </div>
                                         </div>
                                     </li>
@@ -161,9 +178,12 @@ export const IndexPageTemplate = ({
                                                 </Badge>
                                             </div>
                                             <div>
-                                                <h6 className="mb-0">
-                                                    Retargeting strategy
-                                                </h6>
+                                                <Link
+                                                    className=" text-primary"
+                                                    to={'/servizi/retargeting-strategy'}
+                                                >
+                                                   Retargeting Strategy
+                                                </Link>
                                             </div>
                                         </div>
                                     </li>
@@ -178,9 +198,12 @@ export const IndexPageTemplate = ({
                                                 </Badge>
                                             </div>
                                             <div>
-                                                <h6 className="mb-0">
-                                                    Generazione contatti
-                                                </h6>
+                                                <Link
+                                                    className=" text-primary"
+                                                    to={'/servizi/generazione-contatti'}
+                                                >
+                                                    Generazione Contatti
+                                                </Link>
                                             </div>
                                         </div>
                                     </li>
@@ -195,9 +218,12 @@ export const IndexPageTemplate = ({
                                                 </Badge>
                                             </div>
                                             <div>
-                                                <h6 className="mb-0">
+                                                <Link
+                                                    className=" text-primary"
+                                                    to={'/servizi/link-building'}
+                                                >
                                                     Link Building
-                                                </h6>
+                                                </Link>
                                             </div>
                                         </div>
                                     </li>
@@ -212,9 +238,12 @@ export const IndexPageTemplate = ({
                                                 </Badge>
                                             </div>
                                             <div>
-                                                <h6 className="mb-0">
-                                                    E-mail marketing
-                                                </h6>
+                                                <Link
+                                                    className=" text-primary"
+                                                    to={'/servizi/e-mail-marketing'}
+                                                >
+                                                    E-mail Marketing
+                                                </Link>
                                             </div>
                                         </div>
                                     </li>

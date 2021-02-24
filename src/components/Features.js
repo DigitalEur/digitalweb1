@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Link from "gatsby-link";
+import {Button, Col} from "reactstrap";
 
 const FeatureGrid = ({gridItems}) => (
     <>
@@ -15,16 +16,18 @@ const FeatureGrid = ({gridItems}) => (
                         {item.title}
                     </Link>
                     <p>{item.description}</p>
-
-                    <Link
-                        className=" text-primary"
-                        to={'/servizi/' + item.title.toLowerCase().replace(/ /g, "-")}
-                    >
-                        Richiedi un preventivo
-                    </Link>
                 </div>
             </div>
         ))}
+        <Button
+            block
+            className="btn-success"
+            color="default"
+            href="/contatti/"
+            size="lg"
+        >
+            Richiedi un preventivo
+        </Button>
     </>
 )
 

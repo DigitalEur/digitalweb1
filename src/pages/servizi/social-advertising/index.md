@@ -3,7 +3,7 @@ templateKey: 'service-page'
 path: /services
 title: I Nostri Servizi
 image: /img/jumbotron.jpg
-heading: Posizionamento SEO
+heading: Social Advertising
 description: >-
   Kaldi is the ultimate spot for coffee lovers who want to learn about their
   java’s origin and support the farmers that grew it. We take coffee production,
@@ -13,7 +13,7 @@ intro:
   blurbs:
     - image: /img/coffee.png
       title: >
-        Posizionamento SEO
+        Search Advertising
       description: >
         We offer a small, but carefully curated selection of brewing gear and
         tools for every taste and experience level. No matter if you roast your
