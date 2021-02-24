@@ -29,7 +29,8 @@ import {
     InputGroup,
     InputGroupAddon,
     InputGroupText,
-    Row
+    Row,
+    Label
 } from "reactstrap";
 
 export const IndexPageTemplate = ({
@@ -320,7 +321,7 @@ export const IndexPageTemplate = ({
                                                 <i className="ni ni-check-bold" />
                                             </div>
                                             <h6 className="text-primary text-uppercase">
-                                                Download Argon
+                                                Presenza sul web
                                             </h6>
                                             <p className="description mt-3">
                                                 Argon is a great free UI package based on Bootstrap
@@ -356,7 +357,7 @@ export const IndexPageTemplate = ({
                                                 <i className="ni ni-istanbul" />
                                             </div>
                                             <h6 className="text-success text-uppercase">
-                                                Build Something
+                                                Advertising
                                             </h6>
                                             <p className="description mt-3">
                                                 Argon is a great free UI package based on Bootstrap
@@ -392,7 +393,7 @@ export const IndexPageTemplate = ({
                                                 <i className="ni ni-planet" />
                                             </div>
                                             <h6 className="text-warning text-uppercase">
-                                                Prepare Launch
+                                                Strategie
                                             </h6>
                                             <p className="description mt-3">
                                                 Argon is a great free UI package based on Bootstrap
@@ -822,7 +823,7 @@ export const IndexPageTemplate = ({
                         <Col lg="8">
                             <Card className="bg-gradient-secondary shadow">
                                 <CardBody className="p-lg-5">
-                                    <h4 className="mb-1">Vuoi lavorare con noi?</h4>
+                                    <h4 className="mb-1">Richiedi un preventivo</h4>
                                     <p className="mt-0">
                                         Ci prenderemo cura del tuo progetto.
                                     </p>
@@ -852,6 +853,28 @@ export const IndexPageTemplate = ({
                                                 placeholder="Inserisci la tua email"
                                                 type="email"
                                             />
+                                        </InputGroup>
+                                    </FormGroup>
+                                    <FormGroup>
+                                        <InputGroup className="input-group-alternative">
+                                            <InputGroupAddon addonType="prepend">
+                                                <InputGroupText>
+                                                    <i className="ni ni-settings-gear-65" />
+                                                </InputGroupText>
+                                            </InputGroupAddon>
+                                            <Input type="select" name="select" id="exampleSelect">
+                                                <option disabled selected value> -- seleziona un servizio -- </option>
+                                                <option>Realizzazione siti web</option>
+                                                <option>Posizionamento SEO</option>
+                                                <option>Search Advertising</option>
+                                                <option>Social Advertising</option>
+                                                <option>Display Advertising</option>
+                                                <option>Retargeting strategy</option>
+                                                <option>Generazione contatti</option>
+                                                <option>Link Building</option>
+                                                <option>E-mail marketing</option>
+                                                <option>Altro</option>
+                                            </Input>
                                         </InputGroup>
                                     </FormGroup>
                                     <FormGroup className="mb-4">
