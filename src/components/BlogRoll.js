@@ -52,16 +52,9 @@ class BlogRoll extends React.Component {
                         <br />
                         <br />
                         <Link className="button" to={post.fields.slug}>
-                          Keep Reading →
+                          Continua a leggere →
                         </Link>
                       </p>
-                      <a
-                          className="text-success"
-                          href="#pablo"
-                          onClick={e => e.preventDefault()}
-                      >
-                        Learn more
-                      </a>
                     </div>
                   </div>
                 </CardBody>
