@@ -102,7 +102,39 @@ class DemoNavbar extends React.Component {
                                     </Row>
                                 </div>
                                 <Nav className="navbar-nav-hover align-items-lg-center" navbar>
-
+                                    <NavItem>
+                                        <NavLink
+                                            className="nav-link-icon py-1"
+                                            href="tel:+393517155160"
+                                            id="tooltipEmail"
+                                            target="_blank"
+                                        >
+                                            <i className="fa fa-phone" />
+                                            <span className="nav-link-inner--text ml-2">
+                                                +39 3517155160
+                                            </span>
+                                        </NavLink>
+                                        <UncontrolledTooltip delay={0} target="tooltipEmail">
+                                            Contattaci tramite telefono
+                                        </UncontrolledTooltip>
+                                        <NavLink
+                                            className="nav-link-icon py-1"
+                                            href="tel:+393517155160"
+                                            id="tooltipTelephone"
+                                            target="_blank"
+                                        >
+                                            <i className="fa fa-envelope" />
+                                            <span className="nav-link-inner--text ml-2">
+                                                europadigitaldivision@gmail.com
+                                            </span>
+                                        </NavLink>
+                                        <UncontrolledTooltip delay={0} target="tooltipTelephone">
+                                            Contattaci tramite email
+                                        </UncontrolledTooltip>
+                                    </NavItem>
+                                    <NavLink to="/about" tag={Link}>
+                                        Chi siamo
+                                    </NavLink>
                                     <NavLink to="/servizi" tag={Link}>
                                         Servizi
                                     </NavLink>
@@ -111,9 +143,6 @@ class DemoNavbar extends React.Component {
                                     </NavLink>
                                     <NavLink to="/contatti" tag={Link}>
                                         Contatti
-                                    </NavLink>
-                                    <NavLink to="/about" tag={Link}>
-                                        Su di noi
                                     </NavLink>
                                     <NavLink to="/contatti/examples" tag={Link}>
                                         Esempi
