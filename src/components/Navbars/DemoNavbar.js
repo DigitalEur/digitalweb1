@@ -88,6 +88,7 @@ class DemoNavbar extends React.Component {
                                         <Col className="collapse-brand" xs="6">
                                             <Link to="/">
                                                 <img
+                                                    backgroundSize={30}
                                                     alt="..."
                                                     src={require("../../assets/img/brand/EU_COLOR_DIG.svg")}
                                                 />

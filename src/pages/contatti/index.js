@@ -51,7 +51,7 @@ export default class Index extends React.Component {
   render() {
     return (
       <Layout>
-        <MiniHero heading={"Contact"} />
+        <MiniHero heading={"Contattaci"} />
         <section className="section">
           <Container>
             <Row className="justify-content-center">

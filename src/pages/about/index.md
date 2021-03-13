@@ -1,19 +1,19 @@
 ---
 templateKey: 'about-page'
 path: /about
-title: About our values
+title: Chi siamo
 ---
-### Shade-grown coffee
-Coffee is a small tree or shrub that grows in the forest understory in its wild form, and traditionally was grown commercially under other trees that provided shade. The forest-like structure of shade coffee farms provides habitat for a great number of migratory and resident species.
+**Europa Digital Division** è l’unità di marketing e comunicazione con caratteristiche di **consulenza digitale**, 
+della società [Europa s.r.l.](https://www.europa-srl.com). Questa unità nasce nel 2021 dall’esigenza di permettere a tutte quelle attività commerciali 
+ancorate nell’offline o che non hanno una adeguata strategia di comunicazione ed advertising di aumentare il proprio 
+fatturato.
 
-### Single origin
-Single-origin coffee is coffee grown within a single known geographic origin. Sometimes, this is a single farm or a specific collection of beans from a single country. The name of the coffee is then usually the place it was grown to whatever degree available.
+Ogni azienda può trarre vantaggio dal Digital Marketing, che oggi è davvero indispensabile per crescere, perché gli 
+acquisti sono ormai in gran parte su Internet e questo avviene in ogni mercato o business-to-business (**B2B**).
 
-### Sustainable farming
-Sustainable agriculture is farming in sustainable ways based on an understanding of ecosystem services, the study of relationships between organisms and their environment. What grows where and how it is grown are a matter of choice and careful consideration for nature and communities.
+Grazie al nostro team di professionisti attivi da anni nel settore del **Digital Marketing** offriamo **diverse soluzioni 
+per aumentare la visibilità e le vendite della vostra attività**. La nostra consulenza spazia dalla _realizzazione di siti web 
+al posizionamento sui motori di ricerca (SEO), dall’advertising (Google Adv, Facebook Adv, Instagram Adv, Display Adv 
+ect) al web analytics (Google Analytics) e tanti altri servizi, Generazione Contatti, Link Building, E-mail Marketing._
 
-### Direct sourcing
-Direct trade is a form of sourcing practiced by some coffee roasters. Advocates of direct trade practices promote direct communication and price negotiation between buyer and farmer, along with systems that encourage and incentivize quality.
-
-### Reinvest profits
-We want to truly empower the communities that bring amazing coffee to you. That’s why we reinvest 20% of our profits into farms, local businesses and schools everywhere our coffee is grown. You can see the communities grow and learn more about coffee farming on our blog.
+**Mettiti in contatto con il nostro team per scoprire cosa distingue Europa Digital Division dalle altre agenzie digitali.**
