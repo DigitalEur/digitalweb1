@@ -71,7 +71,7 @@ class DemoNavbar extends React.Component {
                     >
                         <Container>
                             <NavbarBrand className="mr-lg-5" to="/" tag={Link}>
-                                <img src={Logo} alt="Logo" />
+                                <img src={Logo} alt="Logo" style={{height: "50px"}} />
                             </NavbarBrand>
                             <button className="navbar-toggler" id="navbar_global">
                                 <span className="navbar-toggler-icon" />
@@ -149,7 +149,7 @@ class DemoNavbar extends React.Component {
                                     <NavItem>
                                         <NavLink
                                             className="nav-link-icon"
-                                            href="https://www.facebook.com/europasrl.it"
+                                            href="https://www.facebook.com/Europa-Digital-Division-101627202010918"
                                             id="tooltip333589074"
                                             target="_blank"
                                         >
@@ -159,13 +159,13 @@ class DemoNavbar extends React.Component {
                       </span>
                                         </NavLink>
                                         <UncontrolledTooltip delay={0} target="tooltip333589074">
-                                            Like us on Facebook
+                                            Seguici su Facebook
                                         </UncontrolledTooltip>
                                     </NavItem>
                                     <NavItem>
                                         <NavLink
                                             className="nav-link-icon"
-                                            href="https://www.instagram.com/europa_srl"
+                                            href="https://www.instagram.com/europadigitaldivision/"
                                             id="tooltip356693867"
                                             target="_blank"
                                         >
@@ -175,23 +175,7 @@ class DemoNavbar extends React.Component {
                       </span>
                                         </NavLink>
                                         <UncontrolledTooltip delay={0} target="tooltip356693867">
-                                            Follow us on Instagram
-                                        </UncontrolledTooltip>
-                                    </NavItem>
-                                    <NavItem>
-                                        <NavLink
-                                            className="nav-link-icon"
-                                            href="https://www.youtube.com/"
-                                            id="tooltip184698705"
-                                            target="_blank"
-                                        >
-                                            <i className="fa fa-youtube-square" />
-                                            <span className="nav-link-inner--text d-lg-none ml-2">
-                                                Youtube
-                                            </span>
-                                        </NavLink>
-                                        <UncontrolledTooltip delay={0} target="tooltip184698705">
-                                            Subscribe on Youtube
+                                            Seguici su Instagram
                                         </UncontrolledTooltip>
                                     </NavItem>
                                 </Nav>
