@@ -260,7 +260,7 @@ export const IndexPageTemplate = ({
                             <Card className="bg-default shadow border-0">
                                 <CardImg
                                     alt="..."
-                                    src={require("../assets/img/theme/milano-galleria.jpg")}
+                                    src={require("../assets/img/theme/ufficio_Milano.jpeg")}
                                     top
                                 />
                                 <blockquote className="card-blockquote">
