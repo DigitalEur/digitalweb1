@@ -88,7 +88,6 @@ class DemoNavbar extends React.Component {
                                         <Col className="collapse-brand" xs="6">
                                             <Link to="/">
                                                 <img
-                                                    backgroundSize={30}
                                                     alt="..."
                                                     src={require("../../assets/img/brand/EU_COLOR_DIG.svg")}
                                                 />
@@ -144,9 +143,6 @@ class DemoNavbar extends React.Component {
                                     </NavLink>
                                     <NavLink to="/contatti" tag={Link}>
                                         Contatti
-                                    </NavLink>
-                                    <NavLink to="/contatti/examples" tag={Link}>
-                                        Esempi
                                     </NavLink>
                                 </Nav>
                                 <Nav className="align-items-lg-center ml-lg-auto" navbar>
