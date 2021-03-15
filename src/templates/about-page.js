@@ -39,7 +39,7 @@ export const AboutPageTemplate = ({title, content, contentComponent}) => {
                                 <div className="d-flex justify-content-center">
                                     <Button
                                         block
-                                        className="btn-success mt-5 w-25 align-self-center"
+                                        className="btn-success mt-5 w-50 align-self-center"
                                         color="default"
                                         href="/contatti/"
                                         size="lg"

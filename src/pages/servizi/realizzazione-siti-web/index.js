@@ -84,15 +84,17 @@ export default class Index extends React.Component {
                 <p className="lead my-5">
                   Ora che ti abbiamo spiegato perché è importante avere una presenza online, se non hai un sito web o vuoi un restyling del tuo sito contattaci senza impegni (<a href="tel:+393517155160">+39 3517155160</a> / <a href="mailto:europadigitaldivision@gmail.com">europadigitaldivision@gmail.com</a>) e chiedi maggiori informazioni sui nostri servizi, o poni una domanda diretta attraverso i nostri social (Instagram, Facebook, LinkedIn). Puoi prendere un appuntamento virtuale su Skype, oppure possiamo conoscerci di persona (nel rispetto delle normative COVID-19).
                 </p>
-                <Button
-                    block
-                    className="btn-success"
-                    color="default"
-                    href="/contatti/"
-                    size="lg"
-                >
-                  Richiedi un preventivo
-                </Button>
+                <div className="d-flex justify-content-center">
+                  <Button
+                      block
+                      className="btn-success mt-5 w-50 align-self-center"
+                      color="default"
+                      href="/contatti/"
+                      size="lg"
+                  >
+                    Richiedi un preventivo
+                  </Button>
+                </div>
               </Col>
             </Row>
           </Container>
