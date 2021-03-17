@@ -57,9 +57,9 @@ export default class Index extends React.Component {
             <Row className="justify-content-center">
               <Col lg="12">
                 <p>
-                <b>Europa Digital Division</b> è l’unità di marketing e comunicazione con caratteristiche di
-                  <b>consulenza digitale</b>, della società <a href="https://www.europa-srl.com" target="_blank">Europa
-                  s.r.l.</a>.
+                <b>Europa Digital Division</b> è l’unità di marketing e comunicazione con caratteristiche
+                  di <b>consulenza digitale</b>, della società <a href="https://www.europa-srl.com" target="_blank">
+                  Europa s.r.l.</a>.
                   Questa unità nasce nel 2021 dall’esigenza di permettere a tutte quelle attività commerciali ancorate
                   nell’offline o che non hanno una adeguata strategia di comunicazione ed advertising di aumentare il
                   proprio fatturato.
