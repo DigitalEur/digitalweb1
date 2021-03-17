@@ -52,8 +52,8 @@ export const IndexPageTemplate = ({
                         <Col className="order-md-2" md="6">
                             <img
                                 alt="..."
-                                className="img-fluid floating"
-                                src={require("../img/Programming-pana.svg")}
+                                className="img-fluid"
+                                src={require("../img/digital_marketing.jpeg")}
                             />
                         </Col>
                         <Col className="order-md-1" md="6">
