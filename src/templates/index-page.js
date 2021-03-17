@@ -294,13 +294,11 @@ export const IndexPageTemplate = ({
                                 <div className="icon icon-lg icon-shape icon-shape-warning shadow rounded-circle mb-5">
                                     <i className="ni ni-settings" />
                                 </div>
-                                <h3>{mainpitch.title}</h3>
-                                <p className="lead">
-                                    {mainpitch.description}
-                                </p>
+                                <h3>{mainpitch.title1}</h3>
                                 <p>
                                     {mainpitch.first_paragraph}
                                 </p>
+                                <h3>{mainpitch.title2}</h3>
                                 <p>
                                     {mainpitch.second_paragraph}
                                 </p>
@@ -344,7 +342,7 @@ export const IndexPageTemplate = ({
                         <Col lg="12">
                             <Row className="row-grid">
                                 <Col lg="4">
-                                    <Card className="card-lift--hover shadow border-0">
+                                    <Card className="card-lift--hover shadow border-0 h-100">
                                         <CardBody className="py-5">
                                             <div className="icon icon-shape icon-shape-primary rounded-circle mb-4">
                                                 <i className="ni ni-check-bold" />
@@ -353,70 +351,49 @@ export const IndexPageTemplate = ({
                                                 Presenza sul web
                                             </h6>
                                             <p className="description mt-3">
-                                                Argon is a great free UI package based on Bootstrap
-                                                4 that includes the most important components and
-                                                features.
+                                                Ogni giorno, la maggior parte degli utenti ricorre all’utilizzo di
+                                                informazioni digitali in relazione a prodotti e servizi di ogni genere.
+                                                Per questo è importante impostare una adeguata presenza online del
+                                                proprio business personale a aziendale.
                                             </p>
-                                            <div>
-                                                <Badge color="primary" pill className="mr-1">
-                                                    design
-                                                </Badge>
-                                                <Badge color="primary" pill className="mr-1">
-                                                    system
-                                                </Badge>
-                                                <Badge color="primary" pill className="mr-1">
-                                                    creative
-                                                </Badge>
-                                            </div>
                                             <Button
                                                 className="mt-4"
                                                 color="primary"
                                                 href="#pablo"
                                                 onClick={e => e.preventDefault()}
                                             >
-                                                Learn more
+                                                Scopri di più
                                             </Button>
                                         </CardBody>
                                     </Card>
                                 </Col>
                                 <Col lg="4">
-                                    <Card className="card-lift--hover shadow border-0">
+                                    <Card className="card-lift--hover shadow border-0 h-100">
                                         <CardBody className="py-5">
                                             <div className="icon icon-shape icon-shape-success rounded-circle mb-4">
                                                 <i className="ni ni-istanbul" />
                                             </div>
                                             <h6 className="text-success text-uppercase">
-                                                Advertising
+                                                Pubblicità
                                             </h6>
                                             <p className="description mt-3">
-                                                Argon is a great free UI package based on Bootstrap
-                                                4 that includes the most important components and
-                                                features.
+                                                Secondo l’Advertising Expenditure Forecasts di Zenith, nel 2022 la
+                                                pubblicità su Internet arriverà a rappresentare il 54,6% degli
+                                                investimenti pubblicitari globali, surclassando la televisione.
                                             </p>
-                                            <div>
-                                                <Badge color="success" pill className="mr-1">
-                                                    business
-                                                </Badge>
-                                                <Badge color="success" pill className="mr-1">
-                                                    vision
-                                                </Badge>
-                                                <Badge color="success" pill className="mr-1">
-                                                    success
-                                                </Badge>
-                                            </div>
                                             <Button
                                                 className="mt-4"
                                                 color="success"
                                                 href="#pablo"
                                                 onClick={e => e.preventDefault()}
                                             >
-                                                Learn more
+                                                Scopri di più
                                             </Button>
                                         </CardBody>
                                     </Card>
                                 </Col>
                                 <Col lg="4">
-                                    <Card className="card-lift--hover shadow border-0">
+                                    <Card className="card-lift--hover shadow border-0 h-100">
                                         <CardBody className="py-5">
                                             <div className="icon icon-shape icon-shape-warning rounded-circle mb-4">
                                                 <i className="ni ni-planet" />
@@ -425,28 +402,20 @@ export const IndexPageTemplate = ({
                                                 Strategie
                                             </h6>
                                             <p className="description mt-3">
-                                                Argon is a great free UI package based on Bootstrap
-                                                4 that includes the most important components and
-                                                features.
+                                                Nell’attuale mercato digitale una strategia di web marketing
+                                                personalizzata è imprescindibile per accrescere il successo del proprio
+                                                modello di business. La pubblicità digitale permette di mostrate i
+                                                contenuti a target specifici. L’applicazione di questa teoria definisce
+                                                una comunicazione one-to-one, diretta e indirizzata al consumatore
+                                                finale.
                                             </p>
-                                            <div>
-                                                <Badge color="warning" pill className="mr-1">
-                                                    marketing
-                                                </Badge>
-                                                <Badge color="warning" pill className="mr-1">
-                                                    product
-                                                </Badge>
-                                                <Badge color="warning" pill className="mr-1">
-                                                    launch
-                                                </Badge>
-                                            </div>
                                             <Button
                                                 className="mt-4"
                                                 color="warning"
                                                 href="#pablo"
                                                 onClick={e => e.preventDefault()}
                                             >
-                                                Learn more
+                                                Scopri di più
                                             </Button>
                                         </CardBody>
                                     </Card>
@@ -994,7 +963,8 @@ export const pageQuery = graphql`
         heading
         subheading
         mainpitch {
-          title
+          title1
+          title2
           description
           first_paragraph
           second_paragraph

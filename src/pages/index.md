@@ -5,22 +5,18 @@ image: /img/home-jumbotron.jpg
 heading: Affida il tuo business ad Europa 
 subheading: Web marketing, comunicazione e molto altro
 mainpitch:
-  title: I nostri clienti
+  title1: Mission
+  title2: Vision
   description: >
-    Kaldi is the coffee store for everyone who believes that great coffee
-    shouldn't just taste good, it should do good too. We source all of our beans
-    directly from small scale sustainable farmers and make sure part of the
-    profits are reinvested in their communities.
-    Kaldi is the coffee store for everyone who believes that great coffee
-    shouldn't just taste good, it should do good too.
+    
   first_paragraph: >
-    The kit comes with three pre-built pages to help you get
-    started faster. You can change the text and images and
-    you're good to go.
+    Con l’avvento delle nuove tecnologie molte imprese e privati non sono riusciti ad adattarsi concretamente alla
+    trasformazione digitale, rimanendo ancorati all’offline o adottando strategie di comunicazione e marketing poco
+    soddisfacenti. Europa Digital Division aiuta privati e imprese italiane ad aumentare il proprio prestigio online e
+    il proprio fatturato con una proposta digitale personalizzata e adeguata alle singole esigenze.
   second_paragraph: >
-    The kit comes with three pre-built pages to help you get
-    started faster. You can change the text and images and
-    you're good to go.
+    Europa Digital Division è un progetto che investe sulle persone e per le persone, che si trasforma giorno dopo 
+    giorno e che prevede il raggiungimento di obiettivi semplici ma allo stesso tempo ambiziosi.
 picture:
   title: Sede a Milano
   description: >
