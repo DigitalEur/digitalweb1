@@ -48,7 +48,7 @@ class SimpleFooter extends React.Component {
                 <Button
                     className="btn-icon-only rounded-circle ml-1"
                     color="facebook"
-                    href="https://www.facebook.com/europasrl.it"
+                    href="https://www.facebook.com/Europa-Digital-Division-101627202010918"
                     id="tooltip837440414"
                     target="_blank"
                 >
@@ -57,12 +57,12 @@ class SimpleFooter extends React.Component {
                   </span>
                 </Button>
                 <UncontrolledTooltip delay={0} target="tooltip837440414">
-                  Like us
+                  Seguici su Facebook
                 </UncontrolledTooltip>
                 <Button
                   className="btn-icon-only rounded-circle ml-1"
                   color="instagram"
-                  href="https://www.instagram.com/europa_srl"
+                  href="https://www.instagram.com/europadigitaldivision"
                   id="tooltip829810202"
                   target="_blank"
                 >
@@ -71,7 +71,7 @@ class SimpleFooter extends React.Component {
                   </span>
                 </Button>
                 <UncontrolledTooltip delay={0} target="tooltip829810202">
-                  Follow us
+                  Seguici su Instagram
                 </UncontrolledTooltip>
                 <Button
                     className="btn-icon-only rounded-circle"
@@ -95,7 +95,7 @@ class SimpleFooter extends React.Component {
                 <div className=" copyright">
                   © {new Date().getFullYear()}{" "}
                   <a
-                    href="https://www.creative-tim.com?ref=adsr-footer"
+                    href="#"
                     target="_blank"
                   >
                     Creative Tim
@@ -107,7 +107,7 @@ class SimpleFooter extends React.Component {
                 <Nav className=" nav-footer justify-content-end">
                   <NavItem>
                     <NavLink
-                      href="https://www.creative-tim.com?ref=adsr-footer"
+                      href="#"
                       target="_blank"
                     >
                       Creative Tim
@@ -115,7 +115,7 @@ class SimpleFooter extends React.Component {
                   </NavItem>
                   <NavItem>
                     <NavLink
-                      href="https://www.creative-tim.com/presentation?ref=adsr-footer"
+                      href="#"
                       target="_blank"
                     >
                       About Us
@@ -123,7 +123,7 @@ class SimpleFooter extends React.Component {
                   </NavItem>
                   <NavItem>
                     <NavLink
-                      href="http://blog.creative-tim.com?ref=adsr-footer"
+                      href="#"
                       target="_blank"
                     >
                       Blog
@@ -131,7 +131,7 @@ class SimpleFooter extends React.Component {
                   </NavItem>
                   <NavItem>
                     <NavLink
-                      href="https://github.com/creativetimofficial/argon-design-system-react/blob/master/LICENSE.md"
+                      href="#"
                       target="_blank"
                     >
                       MIT License

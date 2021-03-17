@@ -183,6 +183,11 @@ class DemoNavbar extends React.Component {
                         </Container>
                     </Navbar>
                 </header>
+                <div className="icon-bar d-none d-lg-block">
+                    <a href="https://www.facebook.com/Europa-Digital-Division-101627202010918" className="facebook" target="_blank"><i className="fa fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/europadigitaldivision/" className="instagram" target="_blank"><i className="fa fa-instagram"></i></a>
+                    <a href="https://www.youtube.com" className="youtube"><i className="fa fa-youtube"></i></a>
+                </div>
             </>
         );
     }
