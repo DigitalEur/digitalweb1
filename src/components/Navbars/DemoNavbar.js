@@ -35,6 +35,7 @@ import {
 
 import {Link} from 'gatsby'
 import Logo from "../../assets/img/brand/EU_WHITE_DIG.svg";
+import CookieConsent from "react-cookie-consent";
 
 class DemoNavbar extends React.Component {
     componentDidMount() {
@@ -188,6 +189,30 @@ class DemoNavbar extends React.Component {
                     <a href="https://www.instagram.com/europadigitaldivision/" className="instagram" target="_blank"><i className="fa fa-instagram"></i></a>
                     <a href="https://www.youtube.com" className="youtube"><i className="fa fa-youtube"></i></a>
                 </div>
+                <CookieConsent
+                    location="bottom"
+                    buttonText="Accetta"
+                    flipButtons
+                    cookieName="gatsby-gdpr-google-analytics"
+                    expires={300}
+                    buttonStyle={{
+                        background: "green",
+                        color: "white",
+                        fontWeight: "bolder",
+                        textShadow: "2px 2px black",
+                    }}>
+                    <span className={"lead"}>Il nostro sito utilizza i cookies</span>
+                    <p>
+                    Utilizziamo i cookie perché il sito funzioni correttamente, per fornirti continuamente la migliore
+                    esperienza di navigazione possibile, per eseguire analisi sull’utilizzo del nostro sito web, per
+                    visualizzare annunci pubblicitari interessanti per te quando navighi su altri siti e per assicurare
+                    le funzionalità dei social network.
+
+                    Clicca su “Accetta” per accettare i cookie e continuare la navigazione sul sito oppure clicca su
+                    "Privacy policy" per maggiori informazioni.
+                    </p>
+
+                </CookieConsent>
             </>
         );
     }
