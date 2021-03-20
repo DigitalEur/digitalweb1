@@ -16,6 +16,7 @@ import {
   Row
 } from "reactstrap";
 import classnames from "classnames";
+import Img from "gatsby-image";
 
 function encode(data) {
   return Object.keys(data)
@@ -137,13 +138,16 @@ export default class Index extends React.Component {
                 </Card>
               </Col>
               <Col lg="4">
-                <div>
-                    <Img
+                <div className="text-center">
+                    <img
+                        className="mt-3"
                         alt="..."
                         src={require("../../assets/img/theme/EU_digital_division.png")}
-                        top
+                        height="100"
+                        marginLeft="auto"
+                        marginRight="auto"
                     />
-                    <h4 className="mt-5 mb-1 text-center">Sede Milano</h4>
+                    <h4 className="mt-2 mb-1 text-center">Sede Milano</h4>
                     <p className="my-0 text-center">
                       Via Lazzaro Spallanzani, 10
                     </p>
