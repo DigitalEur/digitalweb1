@@ -63,77 +63,81 @@ export default class Index extends React.Component {
                     <p className="mt-0">
                       Ci prenderemo cura del tuo progetto.
                     </p>
-                    <FormGroup
-                        className={classnames("mt-5")}
-                    >
-                      <InputGroup className="input-group-alternative">
-                        <InputGroupAddon addonType="prepend">
-                          <InputGroupText>
-                            <i className="ni ni-user-run" />
-                          </InputGroupText>
-                        </InputGroupAddon>
-                        <Input
-                            placeholder="Inserisci il tuo nome"
-                            type="text"
-                        />
-                      </InputGroup>
-                    </FormGroup>
-                    <FormGroup>
-                      <InputGroup className="input-group-alternative">
-                        <InputGroupAddon addonType="prepend">
-                          <InputGroupText>
-                            <i className="ni ni-email-83" />
-                          </InputGroupText>
-                        </InputGroupAddon>
-                        <Input
-                            placeholder="Inserisci la tua email"
-                            type="email"
-                        />
-                      </InputGroup>
-                    </FormGroup>
-                    <FormGroup>
-                      <InputGroup className="input-group-alternative">
-                        <InputGroupAddon addonType="prepend">
-                          <InputGroupText>
-                            <i className="ni ni-settings-gear-65" />
-                          </InputGroupText>
-                        </InputGroupAddon>
-                        <Input type="select" name="select" id="exampleSelect">
-                          <option disabled selected value> -- seleziona un servizio -- </option>
-                          <option>Realizzazione siti web</option>
-                          <option>Posizionamento SEO</option>
-                          <option>Search Advertising</option>
-                          <option>Social Advertising</option>
-                          <option>Display Advertising</option>
-                          <option>Retargeting strategy</option>
-                          <option>Generazione contatti</option>
-                          <option>Link Building</option>
-                          <option>E-mail marketing</option>
-                          <option>Altro</option>
-                        </Input>
-                      </InputGroup>
-                    </FormGroup>
-                    <FormGroup className="mb-4">
-                      <Input
-                          className="form-control-alternative"
-                          cols="80"
-                          name="name"
-                          placeholder="Inserisci un messaggio..."
-                          rows="4"
-                          type="textarea"
-                      />
-                    </FormGroup>
-                    <div>
-                      <Button
-                          block
-                          className="btn-round"
-                          color="default"
-                          size="lg"
-                          type="button"
+                    <form name="contact" method="POST" data-netlify="true">
+                      <FormGroup
+                          className={classnames("mt-5")}
                       >
-                        Invia
-                      </Button>
-                    </div>
+                        <InputGroup className="input-group-alternative">
+                          <InputGroupAddon addonType="prepend">
+                            <InputGroupText>
+                              <i className="ni ni-user-run" />
+                            </InputGroupText>
+                          </InputGroupAddon>
+                          <Input
+                              placeholder="Inserisci il tuo nome"
+                              type="text"
+                              name="name"
+                          />
+                        </InputGroup>
+                      </FormGroup>
+                      <FormGroup>
+                        <InputGroup className="input-group-alternative">
+                          <InputGroupAddon addonType="prepend">
+                            <InputGroupText>
+                              <i className="ni ni-email-83" />
+                            </InputGroupText>
+                          </InputGroupAddon>
+                          <Input
+                              placeholder="Inserisci la tua email"
+                              type="email"
+                              name="email"
+                          />
+                        </InputGroup>
+                      </FormGroup>
+                      <FormGroup>
+                        <InputGroup className="input-group-alternative">
+                          <InputGroupAddon addonType="prepend">
+                            <InputGroupText>
+                              <i className="ni ni-settings-gear-65" />
+                            </InputGroupText>
+                          </InputGroupAddon>
+                          <Input type="select" name="service" id="exampleSelect">
+                            <option disabled selected value> -- seleziona un servizio -- </option>
+                            <option>Realizzazione siti web</option>
+                            <option>Posizionamento SEO</option>
+                            <option>Search Advertising</option>
+                            <option>Social Advertising</option>
+                            <option>Display Advertising</option>
+                            <option>Retargeting strategy</option>
+                            <option>Generazione contatti</option>
+                            <option>Link Building</option>
+                            <option>E-mail marketing</option>
+                            <option>Altro</option>
+                          </Input>
+                        </InputGroup>
+                      </FormGroup>
+                      <FormGroup className="mb-4">
+                        <Input
+                            className="form-control-alternative"
+                            cols="80"
+                            name="message"
+                            placeholder="Inserisci un messaggio..."
+                            rows="4"
+                            type="textarea"
+                        />
+                      </FormGroup>
+                      <div>
+                        <Button
+                            block
+                            className="btn-round"
+                            color="default"
+                            size="lg"
+                            type="submit"
+                        >
+                          Invia
+                        </Button>
+                      </div>
+                    </form>
                   </CardBody>
                 </Card>
               </Col>

@@ -78,7 +78,7 @@ export default class Index extends React.Component {
                         che i tuoi <b>annunci</b> vengano mostrati solo a un pubblico che precedentemente ha visitato il
                         tuo sito
                       </li>
-                      <li className="my-3">Aiuterà a <b>mantenere il tuo marchio di fronte al traffico rimbalzato</b>
+                      <li className="my-3">Aiuterà a <b>mantenere il tuo marchio di fronte al traffico rimbalzato </b>
                         anche dopo che ha lasciato il tuo sito web
                       </li>
                       <li className="my-3">Nell’e-commerce <b>riduce l’abbandono del carrello della spesa</b> online,
