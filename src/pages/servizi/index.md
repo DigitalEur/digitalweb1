@@ -5,84 +5,68 @@ title: I Nostri Servizi
 image: /img/jumbotron.jpg
 heading: I nostri servizi per il tuo business
 description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
+  Ogni modello di business richiede una strategia di comunicazione digitale integrata a una serie di sevizi specifici su 
+  cui affidarsi per aumentare la propria visibilità e rendimento a un pubblico più ampio. Di seguito una panoramica dei 
+  nostri servizi:
 intro:
   blurbs:
     - image: /img/coffee.png
       title: >
         Realizzazione Siti Web
       description: >
-        We offer a small, but carefully curated selection of brewing gear and
-        tools for every taste and experience level. No matter if you roast your
-        own beans or just bought your first french press, you’ll find a gadget
-        to fall in love with in our shop.
+        Il sito web è l’immagine del tuo business, aumenterà la tua credibilità, e ti permetterà di spandere la tua 
+        visibilità, generare contatti e di conseguenza aumentare il tuo fatturato.
     - image: /img/coffee-gear.png
       title: >
         Posizionamento SEO
       description: >
-        We offer a small, but carefully curated selection of brewing gear and
-        tools for every taste and experience level. No matter if you roast your
-        own beans or just bought your first french press, you’ll find a gadget
-        to fall in love with in our shop.
+        La SEO (Search Engine Optimization), ti consentirà di posizionare in maniera ottimale il tuo sito web nei motori
+        di ricerca, migliorando il posizionamento nelle SERP (pagine di risposta alle domande degli utenti del web).
     - image: /img/tutorials.png
       title: >
         Search Advertising
       description: >
-        We offer a small, but carefully curated selection of brewing gear and
-        tools for every taste and experience level. No matter if you roast your
-        own beans or just bought your first french press, you’ll find a gadget
-        to fall in love with in our shop.
+        La Search Advertising è una forma potente di pubblicità che consente di mettere online annunci pubblicitari 
+        mirati. L’utente online, non percepisce gli annunci di search advertising invasivi, perché la pubblicità 
+        corrisponde alle domande del consumatore.
     - image: /img/meeting-space.png
       title: >
         Social Advertising
       description: >
-        We offer a small, but carefully curated selection of brewing gear and
-        tools for every taste and experience level. No matter if you roast your
-        own beans or just bought your first french press, you’ll find a gadget
-        to fall in love with in our shop.
+        Il Social Advertising è un tipo di pubblicità che viene postata sui Social Network e Community ed è il modo più 
+        rapido ed efficace per entrare in contatto con il tuo pubblico di destinazione.
     - image: /img/meeting-space.png
       title: >
         Display Advertising
       description: >
-        We offer a small, but carefully curated selection of brewing gear and
-        tools for every taste and experience level. No matter if you roast your
-        own beans or just bought your first french press, you’ll find a gadget
-        to fall in love with in our shop.
+        Il Display Advertising è una forma di pubblicità che trasmette visivamente un messaggio commerciale utilizzando 
+        testo, logo, fotografie o altri elementi grafici.
     - image: /img/meeting-space.png
       title: >
         Retargeting Advertising
       description: >
-        We offer a small, but carefully curated selection of brewing gear and
-        tools for every taste and experience level. No matter if you roast your
-        own beans or just bought your first french press, you’ll find a gadget
-        to fall in love with in our shop.
+        Il Retargeting Advertising è una tattica di marketing che mostra annunci mirati a un pubblico che ha già 
+        visitato il tuo sito, incoraggiandoli a completare la conversione o per effettuare un nuovo acquisto.
     - image: /img/meeting-space.png
       title: >
         Generazione Contatti
       description: >
-        We offer a small, but carefully curated selection of brewing gear and
-        tools for every taste and experience level. No matter if you roast your
-        own beans or just bought your first french press, you’ll find a gadget
-        to fall in love with in our shop.
+        La Lead Generation è molto importante per la crescita di un’azienda, permette attraverso di un insieme di azioni
+        di marketing di acquisire e generare una lista di contatti realmente interessati ai servizi o prodotti offerti 
+        da te.
     - image: /img/meeting-space.png
       title: >
         Link Building
       description: >
-        We offer a small, but carefully curated selection of brewing gear and
-        tools for every taste and experience level. No matter if you roast your
-        own beans or just bought your first french press, you’ll find a gadget
-        to fall in love with in our shop.
+        La Link Building migliora la visibilità nei motori di ricerca attraverso un insieme di azioni che incrementano 
+        i link di ingresso provenienti da altri siti verso la nostra pagina web.
     - image: /img/meeting-space.png
       title: >
         E-mail Marketing
       description: >
-        We offer a small, but carefully curated selection of brewing gear and
-        tools for every taste and experience level. No matter if you roast your
-        own beans or just bought your first french press, you’ll find a gadget
-        to fall in love with in our shop.
+        L’E-mail marketing è un modello di marketing diretto che utilizza la posta elettronica per comunicare alla 
+        propria audience messaggi promozionali su prodotti e servizi, messaggi informativi che hanno l’obiettivo di 
+        fidelizzare i clienti.
   heading: What we offer
   description: >
     Kaldi is the ultimate spot for coffee lovers who want to learn about their
