@@ -93,11 +93,13 @@ export default class Index extends React.Component {
                   </Button>
                 </div>
 
+              </Col>
+              <Col lg="12" xs="12">
                 <div className="mt-5">
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8927.911532249407!2d9.20694261346993!3d45.47917413870031!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4786c6bf6217f1e3%3A0xdc40eb1b1c796290!2sVia%20Lazzaro%20Spallanzani%2C%2010%2C%2020129%20Milano%20MI!5e0!3m2!1sit!2sit!4v1616275702463!5m2!1sit!2sit"
-                    width="1000"
-                    height="600"
+                    width="100%"
+                    height="500"
                     frameBorder="0"
                     style={{ border: 0 }}
                     allowFullScreen=""
