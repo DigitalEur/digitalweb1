@@ -107,7 +107,7 @@ class DemoNavbar extends React.Component {
                                         <NavLink
                                             className="nav-link-icon py-1"
                                             href="tel:+393517155160"
-                                            id="tooltipEmail"
+                                            id="tooltipTelephone"
                                             target="_blank"
                                         >
                                             <i className="fa fa-phone" />
@@ -115,21 +115,20 @@ class DemoNavbar extends React.Component {
                                                 +39 3517155160
                                             </span>
                                         </NavLink>
-                                        <UncontrolledTooltip delay={0} target="tooltipEmail">
+                                        <UncontrolledTooltip delay={0} target="tooltipTelephone">
                                             Contattaci tramite telefono
                                         </UncontrolledTooltip>
                                         <NavLink
                                             className="nav-link-icon py-1"
-                                            href="tel:+393517155160"
-                                            id="tooltipTelephone"
-                                            target="_blank"
+                                            href="mailto:europadigitaldivision@gmail.com"
+                                            id="tooltipEmail"
                                         >
                                             <i className="fa fa-envelope" />
                                             <span className="nav-link-inner--text ml-2">
                                                 europadigitaldivision@gmail.com
                                             </span>
                                         </NavLink>
-                                        <UncontrolledTooltip delay={0} target="tooltipTelephone">
+                                        <UncontrolledTooltip delay={0} target="tooltipEmail">
                                             Contattaci tramite email
                                         </UncontrolledTooltip>
                                     </NavItem>

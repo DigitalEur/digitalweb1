@@ -5,7 +5,7 @@ import MiniHero from "../../components/IndexSections/MiniHero";
 import {
   Button,
   Card,
-  CardBody,
+  CardBody, CardImg,
   Col,
   Container,
   FormGroup,
@@ -55,7 +55,7 @@ export default class Index extends React.Component {
         <section className="section">
           <Container>
             <Row className="justify-content-center">
-              <Col lg="12">
+              <Col lg="8">
                 <Card className="bg-gradient-secondary shadow">
                   <CardBody className="p-lg-5">
                     <h4 className="mb-1">Richiedi un preventivo</h4>
@@ -135,6 +135,31 @@ export default class Index extends React.Component {
                     </div>
                   </CardBody>
                 </Card>
+              </Col>
+              <Col lg="4">
+                <div>
+                    <Img
+                        alt="..."
+                        src={require("../../assets/img/theme/EU_digital_division.png")}
+                        top
+                    />
+                    <h4 className="mt-5 mb-1 text-center">Sede Milano</h4>
+                    <p className="my-0 text-center">
+                      Via Lazzaro Spallanzani, 10
+                    </p>
+                    <p className="my-0 text-center">
+                      Tel. +39 0221079190
+                    </p>
+                    <p className="my-0 text-center">
+                      Cell. +39 3517155160
+                    </p>
+                    <p className="my-0 text-center text-primary">
+                      europadigitaldivision@gmail.com
+                    </p>
+                    <p className="mt-0 text-center text-primary">
+                      europasrl@pec.it
+                    </p>
+                </div>
               </Col>
             </Row>
           </Container>
