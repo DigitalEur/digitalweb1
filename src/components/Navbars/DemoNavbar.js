@@ -210,6 +210,7 @@ class DemoNavbar extends React.Component {
                     Clicca su “Accetta” per accettare i cookie e continuare la navigazione sul sito oppure clicca su
                     "Privacy policy" per maggiori informazioni.
                     </p>
+                    <NavLink to="/privacy-policy" tag={Link}>Privacy Policy</NavLink>
 
                 </CookieConsent>
             </>

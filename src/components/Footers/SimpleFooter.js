@@ -28,6 +28,7 @@ import {
   Col,
   UncontrolledTooltip
 } from "reactstrap";
+import {Link} from "gatsby";
 
 class SimpleFooter extends React.Component {
   render() {
@@ -95,46 +96,28 @@ class SimpleFooter extends React.Component {
                 <div className=" copyright">
                   © {new Date().getFullYear()}{" "}
                   <a
-                    href="#"
+                    href="https://www.europa-srl.com"
                     target="_blank"
                   >
-                    Creative Tim
+                    Europa srl
                   </a>
-                  .
                 </div>
               </Col>
               <Col md="6">
                 <Nav className=" nav-footer justify-content-end">
                   <NavItem>
-                    <NavLink
-                      href="#"
-                      target="_blank"
-                    >
-                      Creative Tim
+                    <NavLink to="/privacy-policy" tag={Link}>
+                      Privacy Policy
                     </NavLink>
                   </NavItem>
                   <NavItem>
-                    <NavLink
-                      href="#"
-                      target="_blank"
+                    <NavLink tag={Link}>
+                    <a
+                        href="https://www.europadigitaldivision.it/admin"
+                        target="_blank"
                     >
-                      About Us
-                    </NavLink>
-                  </NavItem>
-                  <NavItem>
-                    <NavLink
-                      href="#"
-                      target="_blank"
-                    >
-                      Blog
-                    </NavLink>
-                  </NavItem>
-                  <NavItem>
-                    <NavLink
-                      href="#"
-                      target="_blank"
-                    >
-                      MIT License
+                      Admin
+                    </a>
                     </NavLink>
                   </NavItem>
                 </Nav>
