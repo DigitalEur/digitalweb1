@@ -50,11 +50,13 @@ export const IndexPageTemplate = ({
                 <Container>
                     <Row className="row-grid align-items-center">
                         <Col className="order-md-2" md="6">
-                            <img
-                                alt="..."
-                                className="img-fluid"
-                                src={require("../img/digital_marketing.jpeg")}
-                            />
+                            <Card className="bg-default shadow border-0">
+                                <CardImg
+                                    alt="..."
+                                    src={require("../img/digital_marketing.jpeg")}
+                                    top
+                                />
+                            </Card>
                         </Col>
                         <Col className="order-md-1" md="6">
                             <div className="pr-md-5">
