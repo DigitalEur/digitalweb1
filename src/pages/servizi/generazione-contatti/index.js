@@ -56,6 +56,14 @@ export default class Index extends React.Component {
           <Container>
             <Row className="justify-content-center">
               <Col lg="12">
+                <div className="d-flex justify-content-center">
+                  <img
+                      alt="..."
+                      style={{width: 500}}
+                      src={require("../../../img/lead_generation.jpeg")}
+                      top
+                  />
+                </div>
 
 
                 <p className="lead">
@@ -95,11 +103,11 @@ export default class Index extends React.Component {
                 </p>
 
                 <p className="lead">
-                  Contattaci senza impegni (<a href="tel:+393517155160">+39 3517155160</a> /
-                  <a href="mailto:europadigitaldivision@gmail.com">europadigitaldivision@gmail.com</a>) e chiedi
-                  maggiori informazioni sul nostro servizio, o poni una domanda diretta attraverso i nostri social
-                  (Instagram, Facebook, LinkedIn). Puoi prendere un appuntamento virtuale su Skype, oppure possiamo
-                  conoscerci di persona (nel rispetto delle normative COVID-19).
+                  Contattaci senza impegni (<a href="tel:+393517155160">+39 3517155160</a> / <a
+                    href="mailto:europadigitaldivision@gmail.com">europadigitaldivision@gmail.com</a>)
+                  e chiedi maggiori informazioni sul nostro servizio, o poni una domanda diretta attraverso i nostri
+                  social (Instagram, Facebook, LinkedIn). Puoi prendere un appuntamento virtuale su Skype, oppure
+                  possiamo conoscerci di persona (nel rispetto delle normative COVID-19).
                 </p>
 
                 <div className="d-flex justify-content-center">

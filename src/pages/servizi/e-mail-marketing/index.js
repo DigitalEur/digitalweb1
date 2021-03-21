@@ -56,7 +56,14 @@ export default class Index extends React.Component {
           <Container>
             <Row className="justify-content-center">
               <Col lg="12">
-
+                <div className="d-flex justify-content-center">
+                  <img
+                      alt="..."
+                      style={{width: 500}}
+                      src={require("../../../img/email_marketing.png")}
+                      top
+                  />
+                </div>
 
                 <p className="lead text-center">
                   <b><i>L’e-mail marketing è un alleato fondamentale per qualsiasi attività al fine di aumentare il
