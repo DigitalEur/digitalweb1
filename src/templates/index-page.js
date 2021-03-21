@@ -551,6 +551,18 @@ export const IndexPageTemplate = ({
                                             </Input>
                                         </InputGroup>
                                     </FormGroup>
+                                    <FormGroup check>
+                                        <Label check>
+                                            <Input type="checkbox"/>{' '}
+                                            <p>
+                                                Acconsento al trattamento dei dati personali come riportato
+                                                nella   <Link className=" text-primary"
+                                                              to={'/privacy-policy'}>
+                                                Privacy Policy
+                                            </Link>
+                                            </p>
+                                        </Label>
+                                    </FormGroup>
                                     <FormGroup className="mb-4">
                                         <Input
                                             className="form-control-alternative"
