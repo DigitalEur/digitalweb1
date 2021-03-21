@@ -6,7 +6,7 @@ import {Button, Col} from "reactstrap";
 const FeatureGrid = ({gridItems}) => (
     <>
         {gridItems.map((item) => (
-            <div key={item.title} className="mb-5">
+            <div key={item.title} className="my-4">
                 <div id={item.title.toLowerCase().replace(/ /g, "-")}>
                     {/*<PreviewCompatibleImage imageInfo={item} />*/}
                     <Link

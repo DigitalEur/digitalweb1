@@ -5,7 +5,7 @@ import MiniHero from "../../../components/IndexSections/MiniHero";
 import {
   Button,
   Card,
-  CardBody,
+  CardBody, CardImg,
   Col,
   Container,
   FormGroup,
@@ -57,6 +57,12 @@ export default class Index extends React.Component {
             <Row className="justify-content-center">
               <Col lg="12">
                 <div className="d-flex justify-content-center">
+                  <img
+                      alt="..."
+                      style={{width: 500}}
+                      src={require("../../../img/social-network.png")}
+                      top
+                  />
                   <p className="my-5">
                     <ul className="mt-3">
                       <li className="my-3"><b><i>2,7 miliardi di utenti su Facebook</i></b></li>
@@ -90,6 +96,17 @@ export default class Index extends React.Component {
                     <li className="my-3">Interazione, rispondere in maniera immediata alle esigenze degli utenti, che non sono quelli della televisione, sui social il pubblico è molto attivo e vuole una risposta diretta</li>
                   </ul>
                 </p>
+                <div className="d-flex justify-content-center">
+                  <p className="my-5">
+                    I social network più utilizzati in Italia:
+                    <ul className="mt-3">
+                      <li className="my-3"><b><i>Facebook: 29 milioni di utenti attivi</i></b></li>
+                      <li className="my-3"><b><i>Instagram: 20 milioni di utenti attivi</i></b></li>
+                      <li className="my-3"><b><i>Linkedin: 14 milioni di utenti attivi</i></b></li>
+                      <li className="my-3"><b><i>Twitter: 3,17 milioni di utenti</i></b></li>
+                    </ul>
+                  </p>
+                </div>
 
                 <div className="d-flex justify-content-center">
                   <Button
