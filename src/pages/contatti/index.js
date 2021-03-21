@@ -12,11 +12,12 @@ import {
   Input,
   InputGroup,
   InputGroupAddon,
-  InputGroupText,
+  InputGroupText, Label,
   Row
 } from "reactstrap";
 import classnames from "classnames";
 import Img from "gatsby-image";
+import {Link} from "gatsby";
 
 function encode(data) {
   return Object.keys(data)
@@ -63,7 +64,9 @@ export default class Index extends React.Component {
                     <p className="mt-0">
                       Ci prenderemo cura del tuo progetto.
                     </p>
-                    <form name="contact" method="POST" data-netlify="true">
+
+                    <form action="https://getform.io/f/00b56a7a-2481-4197-9a17-b8ea83a6952e" method="POST">
+
                       <FormGroup
                           className={classnames("mt-5")}
                       >
@@ -77,6 +80,7 @@ export default class Index extends React.Component {
                               placeholder="Inserisci il tuo nome"
                               type="text"
                               name="name"
+                              required
                           />
                         </InputGroup>
                       </FormGroup>
@@ -91,6 +95,7 @@ export default class Index extends React.Component {
                               placeholder="Inserisci la tua email"
                               type="email"
                               name="email"
+                              required
                           />
                         </InputGroup>
                       </FormGroup>
@@ -101,7 +106,7 @@ export default class Index extends React.Component {
                               <i className="ni ni-settings-gear-65" />
                             </InputGroupText>
                           </InputGroupAddon>
-                          <Input type="select" name="service" id="exampleSelect">
+                          <Input type="select" name="select" id="exampleSelect">
                             <option disabled selected value> -- seleziona un servizio -- </option>
                             <option>Realizzazione siti web</option>
                             <option>Posizionamento SEO</option>
@@ -115,6 +120,18 @@ export default class Index extends React.Component {
                             <option>Altro</option>
                           </Input>
                         </InputGroup>
+                      </FormGroup>
+                      <FormGroup check>
+                        <Label check>
+                          <Input type="checkbox" required/>{' '}
+                          <p>
+                            Acconsento al trattamento dei dati personali come riportato
+                            nella   <Link className=" text-primary"
+                                          to={'/privacy-policy'}>
+                            Privacy Policy
+                          </Link>
+                          </p>
+                        </Label>
                       </FormGroup>
                       <FormGroup className="mb-4">
                         <Input
