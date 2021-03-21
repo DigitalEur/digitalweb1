@@ -56,7 +56,14 @@ export default class Index extends React.Component {
           <Container>
             <Row className="justify-content-center">
               <Col lg="12">
-
+                <div className="d-flex justify-content-center">
+                  <img
+                      alt="..."
+                      style={{width: 500}}
+                      src={require("../../../img/tv_adv.png")}
+                      top
+                  />
+                </div>
 
                 <p className="lead">
                   Il <b>display advertising</b> è una delle più tradizionali forme di pubblicità, che a differenza del
