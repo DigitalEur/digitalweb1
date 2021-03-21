@@ -111,13 +111,6 @@ export const servicePageQuery = graphql`
         description
         intro {
           blurbs {
-            image {
-              childImageSharp {
-                fluid(maxWidth: 240, quality: 64) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
             title
             description
           }
@@ -129,13 +122,6 @@ export const servicePageQuery = graphql`
           description
           image1 {
             alt
-            image {
-              childImageSharp {
-                fluid(maxWidth: 526, quality: 92) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
           }
           image2 {
             alt
@@ -149,13 +135,6 @@ export const servicePageQuery = graphql`
           }
           image3 {
             alt
-            image {
-              childImageSharp {
-                fluid(maxWidth: 1075, quality: 72) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
           }
         }
       }
