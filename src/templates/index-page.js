@@ -358,14 +358,6 @@ export const IndexPageTemplate = ({
                                                 Per questo è importante impostare una adeguata presenza online del
                                                 proprio business personale a aziendale.
                                             </p>
-                                            <Button
-                                                className="mt-4"
-                                                color="primary"
-                                                href="#pablo"
-                                                onClick={e => e.preventDefault()}
-                                            >
-                                                Scopri di più
-                                            </Button>
                                         </CardBody>
                                     </Card>
                                 </Col>
@@ -383,14 +375,6 @@ export const IndexPageTemplate = ({
                                                 pubblicità su Internet arriverà a rappresentare il 54,6% degli
                                                 investimenti pubblicitari globali, surclassando la televisione.
                                             </p>
-                                            <Button
-                                                className="mt-4"
-                                                color="success"
-                                                href="#pablo"
-                                                onClick={e => e.preventDefault()}
-                                            >
-                                                Scopri di più
-                                            </Button>
                                         </CardBody>
                                     </Card>
                                 </Col>
@@ -411,14 +395,6 @@ export const IndexPageTemplate = ({
                                                 una comunicazione one-to-one, diretta e indirizzata al consumatore
                                                 finale.
                                             </p>
-                                            <Button
-                                                className="mt-4"
-                                                color="warning"
-                                                href="#pablo"
-                                                onClick={e => e.preventDefault()}
-                                            >
-                                                Scopri di più
-                                            </Button>
                                         </CardBody>
                                     </Card>
                                 </Col>
