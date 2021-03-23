@@ -59,8 +59,8 @@ export default class Index extends React.Component {
 
 
                 <p className="lead">
-                  La <b>Retargeting Strategy</b> (nota come remarketing) è una tattica di marketing che mostra
-                  <b>annunci mirati</b> a un pubblico che ha già visitato il tuo sito, incoraggiandoli a completare la
+                  La <b>Retargeting Strategy</b> (nota come remarketing) è una tattica di marketing che
+                  mostra <b>annunci mirati</b> a un pubblico che ha già visitato il tuo sito, incoraggiandoli a completare la
                   conversione o per effettuare un nuovo acquisto. Il retargeting tecnicamente consiste nell’utilizzo di
                   un codice inserito sul tuo sito web che tiene traccia dei cookie (piccoli file che memorizzano
                   informazioni sul comportamento dell’utente nel tuo sito) e che non influenzerà sulle prestazioni del
