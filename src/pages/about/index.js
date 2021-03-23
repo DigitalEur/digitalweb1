@@ -70,11 +70,12 @@ export default class Index extends React.Component {
                 business-to-business (<b>B2B</b>).
                 </p>
                 <p>
-                Grazie al nostro team di professionisti attivi da anni nel settore del <b>Digital Marketing</b> offriamo
-                <b>diverse soluzioni per aumentare la visibilità e le vendite della vostra attività</b>. La nostra
-                consulenza spazia dalla <i>realizzazione di siti web al posizionamento sui motori di ricerca (SEO),
-                dall’advertising (Google Adv, Facebook Adv, Instagram Adv, Display Adv ect) al web analytics
-                  (Google Analytics) e tanti altri servizi, Generazione Contatti, Link Building, E-mail Marketing.</i>
+                Grazie al nostro team di professionisti attivi da anni nel settore
+                  del <b>Digital Marketing</b> offriamo <b>diverse soluzioni per aumentare la visibilità e le vendite
+                  della vostra attività</b>. La nostra consulenza spazia dalla <i>realizzazione di siti web al
+                  posizionamento sui motori di ricerca (SEO), dall’advertising (Google Adv, Facebook Adv, Instagram Adv,
+                  Display Adv ect) al web analytics (Google Analytics) e tanti altri servizi, Generazione Contatti,
+                  Link Building, E-mail Marketing.</i>
                 </p>
                 <p>
                 <b><i>Mettiti in contatto con il nostro team per scoprire cosa distingue Europa Digital Division dalle

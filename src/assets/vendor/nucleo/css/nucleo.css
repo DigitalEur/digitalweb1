@@ -595,7 +595,16 @@ License - nucleoapp.com/license/
 }
 
 .facebook {
-    background: #3B5998;
+    width: 65px;
+    height: 65px;
+    text-align: center;
+    background: #1877f2;
+    color: white;
+    border-radius: 50%
+}
+
+.facebook_bg {
+    background: #1877f2;
     color: white;
 }
 
@@ -615,14 +624,34 @@ License - nucleoapp.com/license/
 }
 
 .youtube {
-    background: #bb0000;
+    width: 65px;
+    height: 65px;
+    text-align: center;
+    background: #ff0100;
+    color: white;
+    border-radius: 50%
+}
+
+.youtube_bg {
+    background: #ff0100;
     color: white;
 }
 
 .instagram {
-    background: #e4405f;
+    width: 65px;
+    height: 65px;
+    text-align: center;
+    background: #e8369f;
+    color: white;
+    border-radius: 50%
+}
+
+.instagram_bg {
+    background: #e8369f;
     color: white;
 }
+
+
 
 body {
     -webkit-touch-callout: none; /* iOS Safari */

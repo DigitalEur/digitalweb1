@@ -153,7 +153,7 @@ class DemoNavbar extends React.Component {
                                             id="tooltip333589074"
                                             target="_blank"
                                         >
-                                            <i className="fa fa-facebook-square" />
+                                            <i className="fa fa-facebook-square fa-lg" />
                                             <span className="nav-link-inner--text d-lg-none ml-2">
                         Facebook
                       </span>
@@ -169,7 +169,7 @@ class DemoNavbar extends React.Component {
                                             id="tooltip356693867"
                                             target="_blank"
                                         >
-                                            <i className="fa fa-instagram" />
+                                            <i className="fa fa-instagram fa-lg" />
                                             <span className="nav-link-inner--text d-lg-none ml-2">
                         Instagram
                       </span>
@@ -178,15 +178,37 @@ class DemoNavbar extends React.Component {
                                             Seguici su Instagram
                                         </UncontrolledTooltip>
                                     </NavItem>
+                                    <NavItem>
+                                        <NavLink
+                                            className="nav-link-icon"
+                                            href="https://www.youtube.com/channel/UCtA6qsaCPJldRD0yCKk9Iow"
+                                            id="tooltip356693867"
+                                            target="_blank"
+                                        >
+                                            <i className="fa fa-youtube fa-lg" />
+                                            <span className="nav-link-inner--text d-lg-none ml-2">
+                        Youtube
+                      </span>
+                                        </NavLink>
+                                        <UncontrolledTooltip delay={0} target="tooltip356693867">
+                                            Seguici su Youtube
+                                        </UncontrolledTooltip>
+                                    </NavItem>
                                 </Nav>
                             </UncontrolledCollapse>
                         </Container>
                     </Navbar>
                 </header>
                 <div className="icon-bar d-none d-lg-block">
-                    <a href="https://www.facebook.com/Europa-Digital-Division-101627202010918" className="facebook" target="_blank"><i className="fa fa-facebook"></i></a>
-                    <a href="https://www.instagram.com/europadigitaldivision/" className="instagram" target="_blank"><i className="fa fa-instagram"></i></a>
-                    <a href="https://www.youtube.com" className="youtube"><i className="fa fa-youtube"></i></a>
+                    <div className="mt-2 ml-2">
+                        <a href="https://www.facebook.com/Europa-Digital-Division-101627202010918" className="facebook" target="_blank"><i className="fa fa-lg fa-facebook"></i></a>
+                    </div>
+                    <div className="mt-2 ml-2">
+                        <a href="https://www.instagram.com/europadigitaldivision/" className="instagram" target="_blank"><i className="fa fa-lg fa-instagram"></i></a>
+                    </div>
+                    <div className="mt-2 ml-2">
+                        <a href="https://www.youtube.com/channel/UCtA6qsaCPJldRD0yCKk9Iow" className="youtube"><i className="fa fa-lg fa-youtube"></i></a>
+                    </div>
                 </div>
                 <CookieConsent
                     location="bottom"

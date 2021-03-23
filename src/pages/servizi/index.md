@@ -43,7 +43,7 @@ intro:
         testo, logo, fotografie o altri elementi grafici.
     - image: /img/meeting-space.png
       title: >
-        Retargeting Advertising
+        Retargeting Strategy
       description: >
         Il Retargeting Advertising è una tattica di marketing che mostra annunci mirati a un pubblico che ha già 
         visitato il tuo sito, incoraggiandoli a completare la conversione o per effettuare un nuovo acquisto.

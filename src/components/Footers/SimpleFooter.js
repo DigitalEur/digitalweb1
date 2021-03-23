@@ -47,8 +47,7 @@ class SimpleFooter extends React.Component {
               </Col>
               <Col className="text-lg-center btn-wrapper" lg="6">
                 <Button
-                    className="btn-icon-only rounded-circle ml-1"
-                    color="facebook"
+                    className="btn-icon-only rounded-circle ml-1 facebook_bg"
                     href="https://www.facebook.com/Europa-Digital-Division-101627202010918"
                     id="tooltip837440414"
                     target="_blank"
@@ -61,8 +60,7 @@ class SimpleFooter extends React.Component {
                   Seguici su Facebook
                 </UncontrolledTooltip>
                 <Button
-                  className="btn-icon-only rounded-circle ml-1"
-                  color="instagram"
+                  className="btn-icon-only rounded-circle ml-1 instagram_bg"
                   href="https://www.instagram.com/europadigitaldivision"
                   id="tooltip829810202"
                   target="_blank"
@@ -75,8 +73,7 @@ class SimpleFooter extends React.Component {
                   Seguici su Instagram
                 </UncontrolledTooltip>
                 <Button
-                    className="btn-icon-only rounded-circle"
-                    color="youtube"
+                    className="btn-icon-only rounded-circle youtube_bg"
                     href="https://www.youtube.com"
                     id="tooltip475038074"
                     target="_blank"
