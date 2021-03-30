@@ -60,7 +60,7 @@ export default class Index extends React.Component {
                   La <b>SEO</b> (<i>Search Engine Optimization</i>) sono tutte quelle attività che permettono di
                   scansionare, indirizzare e <b>posizionare in maniera ottimale</b> il tuo sito web nei motori di
                   ricerca  (es. Google, soprattutto, ma anche Yahoo!, Bing, Yandex, Baidu, Ask ecc.,) con l’obiettivo
-                  di <b>migliorare o mantenere</b> il <b>posizionamento nelle SERP</b>(pagine di risposta alle domande
+                  di <b>migliorare o mantenere</b> il <b>posizionamento nelle SERP</b> (pagine di risposta alle domande
                   degli utenti del web).
                 </p>
 
