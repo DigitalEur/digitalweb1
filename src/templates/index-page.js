@@ -30,7 +30,7 @@ import {
     InputGroupAddon,
     InputGroupText,
     Row,
-    Label
+    Label, NavLink
 } from "reactstrap";
 
 export const IndexPageTemplate = ({
@@ -304,13 +304,9 @@ export const IndexPageTemplate = ({
                                 <p>
                                     {mainpitch.second_paragraph}
                                 </p>
-                                <a
-                                    className="font-weight-bold text-warning mt-5"
-                                    href="#pablo"
-                                    onClick={e => e.preventDefault()}
-                                >
+                                <NavLink to="/contatti" tag={Link} className="font-weight-bold text-warning mt-5"git status>
                                     Contattaci per un appuntamento in sede
-                                </a>
+                                </NavLink>
                             </div>
                         </Col>
                     </Row>
@@ -469,7 +465,7 @@ export const IndexPageTemplate = ({
                     </svg>
                 </div>
             </section>
-            <section className="section section-lg pt-lg-0 section-contact-us">
+            <section id="contattaci" className="section section-lg pt-lg-0 section-contact-us">
                 <Container>
                     <Row className="justify-content-center mt--300">
                         <Col lg="8">
