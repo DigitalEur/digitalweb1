@@ -106,7 +106,8 @@ export default class Index extends React.Component {
                   Contattaci senza impegni (<a href="tel:+393517155160">+39 3517155160</a> / <a
                     href="mailto:europadigitaldivision@gmail.com">europadigitaldivision@gmail.com</a>)
                   e chiedi maggiori informazioni sul nostro servizio, o poni una domanda diretta attraverso i nostri
-                  social (Instagram, Facebook, LinkedIn). Puoi prendere un appuntamento virtuale su Skype, oppure
+                  social (<a href="https://www.instagram.com/europadigitaldivision/" target="_blank">Instagram</a>, <a href="https://www.facebook.com/Europa-Digital-Division-101627202010918" target="_blank">Facebook</a>, <a href="https://www.linkedin.com/company/europasrl/" target="_blank">
+                  Linkedin</a>). Puoi prendere un appuntamento virtuale su Skype, oppure
                   possiamo conoscerci di persona (nel rispetto delle normative COVID-19).
                 </p>
 
