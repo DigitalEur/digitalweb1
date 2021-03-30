@@ -163,8 +163,8 @@ export default class Index extends React.Component {
                     <img
                         className="mt-3"
                         alt="..."
-                        src={require("../../assets/img/theme/EU_digital_division.png")}
-                        height="100"
+                        src={require("../../assets/img/theme/EU_digital division_official-100.jpg")}
+                        height="130"
                         marginLeft="auto"
                         marginRight="auto"
                     />
