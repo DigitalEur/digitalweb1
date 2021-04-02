@@ -56,6 +56,14 @@ export default class Index extends React.Component {
           <Container>
             <Row className="justify-content-center">
               <Col lg="12">
+                <div className="d-flex justify-content-center">
+                  <img
+                      alt="..."
+                      style={{width: 500}}
+                      src={require("../../../img/3.jpg")}
+                      top
+                  />
+                </div>
                 <p className="lead">
                   La <b>Search Advertising</b> consiste nel <b>mettere online nei motori di ricerca annunci pubblicitari
                   mirati</b>. Gli inserzionisti possono fare offerte per le parole chiavi attinenti la loro attività,

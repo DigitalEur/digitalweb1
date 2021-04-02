@@ -57,12 +57,14 @@ export default class Index extends React.Component {
             <Row className="justify-content-center">
               <Col lg="12">
                 <div className="d-flex justify-content-center">
-                  <img
-                      alt="..."
-                      style={{width: 500}}
-                      src={require("../../../img/social-network.png")}
-                      top
-                  />
+                  <div className="d-flex justify-content-center">
+                    <img
+                        alt="..."
+                        style={{width: 500}}
+                        src={require("../../../img/4.jpg")}
+                        top
+                    />
+                  </div>
                   <p className="my-5">
                     <ul className="mt-3">
                       <li className="my-3"><b><i>2,7 miliardi di utenti su Facebook</i></b></li>

@@ -56,7 +56,14 @@ export default class Index extends React.Component {
           <Container>
             <Row className="justify-content-center">
               <Col lg="12">
-
+                <div className="d-flex justify-content-center">
+                  <img
+                      alt="..."
+                      style={{width: 500}}
+                      src={require("../../../img/6.jpg")}
+                      top
+                  />
+                </div>
 
                 <p className="lead">
                   La <b>Retargeting Strategy</b> (nota come remarketing) è una tattica di marketing che

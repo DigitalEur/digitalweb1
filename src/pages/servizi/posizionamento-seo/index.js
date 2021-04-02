@@ -56,6 +56,14 @@ export default class Index extends React.Component {
           <Container>
             <Row className="justify-content-center">
               <Col lg="12">
+                <div className="d-flex justify-content-center">
+                  <img
+                      alt="..."
+                      style={{width: 500}}
+                      src={require("../../../img/2.jpg")}
+                      top
+                  />
+                </div>
                 <p className="lead">
                   La <b>SEO</b> (<i>Search Engine Optimization</i>) sono tutte quelle attività che permettono di
                   scansionare, indirizzare e <b>posizionare in maniera ottimale</b> il tuo sito web nei motori di

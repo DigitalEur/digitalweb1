@@ -60,7 +60,7 @@ export default class Index extends React.Component {
                   <img
                       alt="..."
                       style={{width: 500}}
-                      src={require("../../../img/tv_adv.png")}
+                      src={require("../../../img/5.jpg")}
                       top
                   />
                 </div>
