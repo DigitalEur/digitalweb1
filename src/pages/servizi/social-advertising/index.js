@@ -52,7 +52,7 @@ export default class Index extends React.Component {
     return (
       <Layout>
         <MiniHero heading={"Social Advertising"} />
-        <section className="section">
+        <section className="section text-justify">
           <Container>
             <Row className="justify-content-center">
               <Col lg="12">
