@@ -111,7 +111,7 @@ class DemoNavbar extends React.Component {
                                             target="_blank"
                                         >
                                             <i className="fa fa-phone" />
-                                            <span className="nav-link-inner--text ml-2">
+                                            <span className="nav-link-inner--text ml-2" style={{fontSize: 13}}>
                                                 +39 3517155160
                                             </span>
                                         </NavLink>
@@ -124,7 +124,7 @@ class DemoNavbar extends React.Component {
                                             id="tooltipEmail"
                                         >
                                             <i className="fa fa-envelope" />
-                                            <span className="nav-link-inner--text ml-2">
+                                            <span className="nav-link-inner--text ml-2" style={{fontSize: 13}}>
                                                 europadigitaldivision@gmail.com
                                             </span>
                                         </NavLink>
@@ -201,13 +201,16 @@ class DemoNavbar extends React.Component {
                 </header>
                 <div className="icon-bar d-none d-lg-block">
                     <div className="mt-2 ml-2">
-                        <a href="https://www.facebook.com/Europa-Digital-Division-101627202010918" className="facebook" target="_blank"><i className="fa fa-lg fa-facebook"></i></a>
+                        <a href="https://www.facebook.com/Europa-Digital-Division-101627202010918" className="facebook"
+                           target="_blank"><i className="fa fa-lg fa-facebook"></i></a>
                     </div>
                     <div className="mt-2 ml-2">
-                        <a href="https://www.instagram.com/europadigitaldivision/" className="instagram" target="_blank"><i className="fa fa-lg fa-instagram"></i></a>
+                        <a href="https://www.instagram.com/europadigitaldivision/" className="instagram"
+                           target="_blank"><i className="fa fa-lg fa-instagram"></i></a>
                     </div>
                     <div className="mt-2 ml-2">
-                        <a href="https://www.youtube.com/channel/UCtA6qsaCPJldRD0yCKk9Iow" className="youtube"><i className="fa fa-lg fa-youtube"></i></a>
+                        <a href="https://www.youtube.com/channel/UCtA6qsaCPJldRD0yCKk9Iow" className="youtube"><i
+                            className="fa fa-lg fa-youtube"></i></a>
                     </div>
                 </div>
                 <CookieConsent
@@ -224,13 +227,15 @@ class DemoNavbar extends React.Component {
                     }}>
                     <span className={"lead"}>Il nostro sito utilizza i cookies</span>
                     <p>
-                    Utilizziamo i cookie perché il sito funzioni correttamente, per fornirti continuamente la migliore
-                    esperienza di navigazione possibile, per eseguire analisi sull’utilizzo del nostro sito web, per
-                    visualizzare annunci pubblicitari interessanti per te quando navighi su altri siti e per assicurare
-                    le funzionalità dei social network.
+                        Utilizziamo i cookie perché il sito funzioni correttamente, per fornirti continuamente la
+                        migliore
+                        esperienza di navigazione possibile, per eseguire analisi sull’utilizzo del nostro sito web, per
+                        visualizzare annunci pubblicitari interessanti per te quando navighi su altri siti e per
+                        assicurare
+                        le funzionalità dei social network.
 
-                    Clicca su “Accetta” per accettare i cookie e continuare la navigazione sul sito oppure clicca su
-                    "Privacy policy" per maggiori informazioni.
+                        Clicca su “Accetta” per accettare i cookie e continuare la navigazione sul sito oppure clicca su
+                        "Privacy policy" per maggiori informazioni.
                     </p>
                     <NavLink to="/privacy-policy" tag={Link}>Privacy Policy</NavLink>
 
