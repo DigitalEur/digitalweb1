@@ -165,6 +165,9 @@ export default class Index extends React.Component {
                                             top
                                         />
                                     </div>
+                                </div>
+
+                                <div className="d-flex justify-content-center">
                                     <p className="my-5">
                                         <ul className="mt-3">
                                             <li className="my-3"><b><i>2,7 miliardi di utenti su Facebook</i></b></li>
