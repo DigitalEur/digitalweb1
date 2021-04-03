@@ -156,13 +156,15 @@ export default class Index extends React.Component {
                                 </ul>
                             </Col>
                             <Col lg="9" xs="12" className="text-justify">
-                                <div className="d-flex justify-content-center">
-                                    <img
-                                        alt="..."
-                                        style={{width: 500}}
-                                        src={require("../../../img/1.jpg")}
-                                        top
-                                    />
+                                <div className="d-none d-sm-block">
+                                    <div className="d-flex justify-content-center">
+                                        <img
+                                            alt="..."
+                                            style={{width: 500}}
+                                            src={require("../../../img/1.jpg")}
+                                            top
+                                        />
+                                    </div>
                                 </div>
                                 <p className="lead">
                                     <b>Il sito web è l’immagine del tuo business</b>, ti permetterà di generare contatti
