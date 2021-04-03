@@ -16,6 +16,7 @@ import {
   Row
 } from "reactstrap";
 import classnames from "classnames";
+import {Link} from "gatsby";
 
 function encode(data) {
   return Object.keys(data)
@@ -55,7 +56,119 @@ export default class Index extends React.Component {
         <section className="section text-justify">
           <Container>
             <Row className="justify-content-center">
-              <Col lg="12">
+              <Col lg="3" className="d-none d-sm-block">
+                <ul className="list-unstyled mt-5">
+                  <li className="py-2">
+                    <div className="d-flex align-items-center">
+                      <div>
+                        <Link
+                            className=" text-primary"
+                            to={'/servizi/realizzazione-siti-web'}
+                        >
+                          Realizzazione siti web
+                        </Link>
+                      </div>
+                    </div>
+                  </li>
+                  <li className="py-2">
+                    <div className="d-flex align-items-center">
+                      <div>
+                        <Link
+                            className=" text-primary"
+                            to={'/servizi/posizionamento-seo'}
+                        >
+                          Posizionamento SEO
+                        </Link>
+                      </div>
+                    </div>
+                  </li>
+                  <li className="py-2">
+                    <div className="d-flex align-items-center">
+                      <div>
+                        <Link
+                            className=" text-primary"
+                            to={'/servizi/search-advertising'}
+                        >
+                          Search Advertising
+                        </Link>
+                      </div>
+                    </div>
+                  </li>
+                  <li className="py-2">
+                    <div className="d-flex align-items-center">
+                      <div>
+                        <Link
+                            className=" text-primary"
+                            to={'/servizi/social-advertising'}
+                        >
+                          Social Advertising
+                        </Link>
+                      </div>
+                    </div>
+                  </li>
+                  <li className="py-2">
+                    <div className="d-flex align-items-center">
+                      <div>
+                        <Link
+                            className=" text-primary"
+                            to={'/servizi/display-advertising'}
+                        >
+                          Display Advertising
+                        </Link>
+                      </div>
+                    </div>
+                  </li>
+                  <li className="py-2">
+                    <div className="d-flex align-items-center">
+                      <div>
+                        <Link
+                            className=" text-primary"
+                            to={'/servizi/retargeting-strategy'}
+                        >
+                          Retargeting Strategy
+                        </Link>
+                      </div>
+                    </div>
+                  </li>
+                  <li className="py-2">
+                    <div className="d-flex align-items-center">
+                      <div>
+                        <Link
+                            className=" text-primary"
+                            to={'/servizi/generazione-contatti'}
+                        >
+                          Generazione Contatti
+                        </Link>
+                      </div>
+                    </div>
+                  </li>
+                  <li className="py-2">
+                    <div className="d-flex align-items-center">
+                      <div>
+                        <Link
+                            className=" text-primary"
+                            to={'/servizi/link-building'}
+                        >
+                          Link Building
+                        </Link>
+                      </div>
+                    </div>
+                  </li>
+                  <li className="py-2">
+                    <div className="d-flex align-items-center">
+                      <div>
+                        <Link
+                            className=" text-primary"
+                            to={'/servizi/e-mail-marketing'}
+                        >
+                          E-mail Marketing
+                        </Link>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </Col>
+              <Col lg="9" xs="12" className="text-justify">
                 <div className="d-flex justify-content-center">
                   <img
                       alt="..."

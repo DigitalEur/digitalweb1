@@ -16,6 +16,7 @@ import {
   Row
 } from "reactstrap";
 import classnames from "classnames";
+import {Link} from "gatsby";
 
 function encode(data) {
   return Object.keys(data)
@@ -55,7 +56,119 @@ export default class Index extends React.Component {
         <section className="section text-justify">
           <Container>
             <Row className="justify-content-center">
-              <Col lg="12">
+              <Col lg="3" className="d-none d-sm-block">
+                <ul className="list-unstyled mt-5">
+                  <li className="py-2">
+                    <div className="d-flex align-items-center">
+                      <div>
+                        <Link
+                            className=" text-primary"
+                            to={'/servizi/realizzazione-siti-web'}
+                        >
+                          Realizzazione siti web
+                        </Link>
+                      </div>
+                    </div>
+                  </li>
+                  <li className="py-2">
+                    <div className="d-flex align-items-center">
+                      <div>
+                        <Link
+                            className=" text-primary"
+                            to={'/servizi/posizionamento-seo'}
+                        >
+                          Posizionamento SEO
+                        </Link>
+                      </div>
+                    </div>
+                  </li>
+                  <li className="py-2">
+                    <div className="d-flex align-items-center">
+                      <div>
+                        <Link
+                            className=" text-primary"
+                            to={'/servizi/search-advertising'}
+                        >
+                          Search Advertising
+                        </Link>
+                      </div>
+                    </div>
+                  </li>
+                  <li className="py-2">
+                    <div className="d-flex align-items-center">
+                      <div>
+                        <Link
+                            className=" text-primary"
+                            to={'/servizi/social-advertising'}
+                        >
+                          Social Advertising
+                        </Link>
+                      </div>
+                    </div>
+                  </li>
+                  <li className="py-2">
+                    <div className="d-flex align-items-center">
+                      <div>
+                        <Link
+                            className=" text-primary"
+                            to={'/servizi/display-advertising'}
+                        >
+                          Display Advertising
+                        </Link>
+                      </div>
+                    </div>
+                  </li>
+                  <li className="py-2">
+                    <div className="d-flex align-items-center">
+                      <div>
+                        <Link
+                            className=" text-primary"
+                            to={'/servizi/retargeting-strategy'}
+                        >
+                          Retargeting Strategy
+                        </Link>
+                      </div>
+                    </div>
+                  </li>
+                  <li className="py-2">
+                    <div className="d-flex align-items-center">
+                      <div>
+                        <Link
+                            className=" text-primary"
+                            to={'/servizi/generazione-contatti'}
+                        >
+                          Generazione Contatti
+                        </Link>
+                      </div>
+                    </div>
+                  </li>
+                  <li className="py-2">
+                    <div className="d-flex align-items-center">
+                      <div>
+                        <Link
+                            className=" text-primary"
+                            to={'/servizi/link-building'}
+                        >
+                          Link Building
+                        </Link>
+                      </div>
+                    </div>
+                  </li>
+                  <li className="py-2">
+                    <div className="d-flex align-items-center">
+                      <div>
+                        <Link
+                            className=" text-primary"
+                            to={'/servizi/e-mail-marketing'}
+                        >
+                          E-mail Marketing
+                        </Link>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </Col>
+              <Col lg="9" xs="12" className="text-justify">
                 <div className="d-flex justify-content-center">
                   <img
                       alt="..."
@@ -68,7 +181,8 @@ export default class Index extends React.Component {
                 <p className="lead">
                   La <b>Retargeting Strategy</b> (nota come remarketing) è una tattica di marketing che
                   mostra <b>annunci mirati</b> a un pubblico che ha già visitato il tuo sito, incoraggiandoli a completare la
-                  conversione o per effettuare un nuovo acquisto. Il retargeting tecnicamente consiste nell’utilizzo di
+                  conversione o per effettuare un nuovo acquisto. </p>
+                <p>Il retargeting tecnicamente consiste nell’utilizzo di
                   un codice inserito sul tuo sito web che tiene traccia dei cookie (piccoli file che memorizzano
                   informazioni sul comportamento dell’utente nel tuo sito) e che non influenzerà sulle prestazioni del
                   sito.
@@ -82,8 +196,8 @@ export default class Index extends React.Component {
                   <p>
                     <ul className="mt-3">
                       <li className="my-3">Indica al fornitore di retargeting quando pubblicare gli annunci, assicurando
-                        che i tuoi <b>annunci</b> vengano mostrati solo a un pubblico che precedentemente ha visitato il
-                        tuo sito
+                        che i tuoi <b>annunci vengano mostrati solo a un pubblico che precedentemente ha visitato il
+                        tuo sito</b>
                       </li>
                       <li className="my-3">Aiuterà a <b>mantenere il tuo marchio di fronte al traffico rimbalzato </b>
                         anche dopo che ha lasciato il tuo sito web
@@ -96,7 +210,7 @@ export default class Index extends React.Component {
                 </div>
 
                 <p className="lead text-center">
-                  Sei interessato al remarketing? Contattaci per integrare la tua strategia di web marketing
+                  Sei interessato al retargeting? Contattaci per integrare la tua strategia di web marketing
                 </p>
 
                 <div className="d-flex justify-content-center">
