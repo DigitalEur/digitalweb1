@@ -7,7 +7,7 @@ const FeatureGrid = ({gridItems}) => (
     <>
         {gridItems.map((item) => (
             <div key={item.title} className="my-4">
-                <div id={item.title.toLowerCase().replace(/ /g, "-")}>
+                <div id={item.title.toLowerCase().replace(/ /g, "-")} className="text-justify">
                     {/*<PreviewCompatibleImage imageInfo={item} />*/}
                     <Link
                         className=" text-primary"
