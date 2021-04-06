@@ -156,13 +156,15 @@ export default class Index extends React.Component {
                                 </ul>
                             </Col>
                             <Col lg="9" xs="12" className="text-justify">
-                                <div className="d-flex justify-content-center">
-                                    <img
-                                        alt="..."
-                                        style={{width: 500}}
-                                        src={require("../../../img/5.jpg")}
-                                        top
-                                    />
+                                <div className="d-none d-sm-block">
+                                    <div className="d-flex justify-content-center d-none d-sm-block">
+                                        <img
+                                            alt="..."
+                                            style={{width: 500}}
+                                            src={require("../../../img/5.jpg")}
+                                            top
+                                        />
+                                    </div>
                                 </div>
 
                                 <p className="lead">
@@ -204,7 +206,8 @@ export default class Index extends React.Component {
                                             </li>
                                             <li className="my-3">Offre <b>varie strategie</b> in base alla disponibilità
                                                 del nostro budget: attraverso diversi metodi di pagamento basati sul
-                                                costo per click, oppure sul numero di <i>impression</i> erogate, o ancora sul
+                                                costo per click, oppure sul numero di <i>impression</i> erogate, o
+                                                ancora sul
                                                 numero di lead ottenuti, o in base al tempo di permanenza dell’annuncio
                                                 sulla pagina web
                                             </li>

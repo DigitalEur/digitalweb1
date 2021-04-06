@@ -156,7 +156,7 @@ export default class Index extends React.Component {
                                 </ul>
                             </Col>
                             <Col lg="9" xs="12" className="text-justify">
-                                <div className="d-flex justify-content-center">
+                                <div className="d-none d-sm-block">
                                     <div className="d-flex justify-content-center">
                                         <img
                                             alt="..."
