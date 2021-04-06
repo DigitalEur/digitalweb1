@@ -102,49 +102,55 @@ class DemoNavbar extends React.Component {
                                         </Col>
                                     </Row>
                                 </div>
-                                <Nav className="navbar-nav-hover align-items-lg-center" navbar>
-                                    <NavItem>
-                                        <NavLink
-                                            className="nav-link-icon py-1"
-                                            href="tel:+393517155160"
-                                            id="tooltipTelephone"
-                                            target="_blank"
-                                        >
-                                            <i className="fa fa-phone" />
-                                            <span className="nav-link-inner--text ml-2" style={{fontSize: 13}}>
+                                <div className="flex-column">
+                                    <Nav className="navbar-nav-hover align-items-lg-center my-1" navbar>
+                                        <NavItem>
+                                            <NavLink
+                                                className="nav-link-icon py-1"
+                                                href="tel:+393517155160"
+                                                id="tooltipTelephone"
+                                                target="_blank"
+                                            >
+                                                <i className="fa fa-phone" />
+                                                <span className="nav-link-inner--text ml-2" style={{fontSize: 13}}>
                                                 +39 3517155160
                                             </span>
-                                        </NavLink>
-                                        <UncontrolledTooltip delay={0} target="tooltipTelephone">
-                                            Contattaci tramite telefono
-                                        </UncontrolledTooltip>
-                                        <NavLink
-                                            className="nav-link-icon py-1"
-                                            href="mailto:europadigitaldivision@gmail.com"
-                                            id="tooltipEmail"
-                                        >
-                                            <i className="fa fa-envelope" />
-                                            <span className="nav-link-inner--text ml-2" style={{fontSize: 13}}>
+                                            </NavLink>
+                                            <UncontrolledTooltip delay={0} target="tooltipTelephone">
+                                                Contattaci tramite telefono
+                                            </UncontrolledTooltip>
+                                        </NavItem>
+                                        <NavItem>
+                                            <NavLink
+                                                className="nav-link-icon py-1"
+                                                href="mailto:europadigitaldivision@gmail.com"
+                                                id="tooltipEmail"
+                                            >
+                                                <i className="fa fa-envelope" />
+                                                <span className="nav-link-inner--text ml-2" style={{fontSize: 13}}>
                                                 europadigitaldivision@gmail.com
                                             </span>
+                                            </NavLink>
+                                            <UncontrolledTooltip delay={0} target="tooltipEmail">
+                                                Contattaci tramite email
+                                            </UncontrolledTooltip>
+                                        </NavItem>
+                                    </Nav>
+                                    <Nav className="navbar-nav-hover align-items-lg-center my-1" navbar>
+                                        <NavLink to="/about" tag={Link} style={{fontSize: 20}}>
+                                            Chi siamo
                                         </NavLink>
-                                        <UncontrolledTooltip delay={0} target="tooltipEmail">
-                                            Contattaci tramite email
-                                        </UncontrolledTooltip>
-                                    </NavItem>
-                                    <NavLink to="/about" tag={Link}>
-                                        Chi siamo
-                                    </NavLink>
-                                    <NavLink to="/servizi" tag={Link}>
-                                        Servizi
-                                    </NavLink>
-                                    <NavLink to="/blog" tag={Link}>
-                                        Blog
-                                    </NavLink>
-                                    <NavLink to="/contatti" tag={Link}>
-                                        Contatti
-                                    </NavLink>
-                                </Nav>
+                                        <NavLink to="/servizi" tag={Link} style={{fontSize: 20}}>
+                                            Servizi
+                                        </NavLink>
+                                        <NavLink to="/blog" tag={Link} style={{fontSize: 20}}>
+                                            Blog
+                                        </NavLink>
+                                        <NavLink to="/contatti" tag={Link} style={{fontSize: 20}}>
+                                            Contatti
+                                        </NavLink>
+                                    </Nav>
+                                </div>
                                 <Nav className="align-items-lg-center ml-lg-auto" navbar>
                                     <NavItem>
                                         <NavLink

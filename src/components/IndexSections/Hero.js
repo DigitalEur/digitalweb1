@@ -48,11 +48,11 @@ class Hero extends React.Component {
                                     <Col className="text-center" lg="12">
                                         <img src={Logo} alt="Logo" style={{width: "200px"}} />
                                         <p className="text-white mt-5"
-                                           style={{fontFamily: "Roboto", fontWeight: "bold", fontSize: 50}}>
+                                           style={{fontFamily: "Roboto", fontWeight: "600", lineHeight: 1, letterSpacing: 0,fontSize: 70}}>
                                             {this.props.heading}
                                         </p>
                                         <p className="text-white"
-                                           style={{fontFamily: "Roboto", fontWeight: "medium", fontSize: 30}}>
+                                           style={{fontFamily: "Roboto", fontWeight: "medium", fontSize: 40}}>
                                             {this.props.subheading}
                                         </p>
                                     </Col>
