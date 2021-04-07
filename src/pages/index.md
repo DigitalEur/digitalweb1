@@ -2,7 +2,7 @@
 templateKey: index-page
 title: Great coffee with a conscience
 image: /img/home-jumbotron.jpg
-heading: AFFIDA IL TUO BUSINESS AD EUROPA 
+heading: AFFIDA IL TUO BUSINESS AD EUROPA DIGITAL DIVISION 
 subheading: Web marketing, comunicazione e molto altro
 mainpitch:
   title1: Mission
