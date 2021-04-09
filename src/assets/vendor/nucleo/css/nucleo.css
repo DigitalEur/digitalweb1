@@ -612,6 +612,29 @@ License - nucleoapp.com/license/
     font-size: 20px;
 }
 
+.whatsapp-bar {
+    position: fixed;
+    top: 90%;
+    left: 90%;
+    z-index: 1000;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.whatsapp-bar a {
+    display: block;
+    text-align: center;
+    padding: 18px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+}
+
+.whatsapp-bar a:hover {
+    background-color: #3da44f;
+}
+
 .icon-bar a:hover {
     background-color: #000;
 }
@@ -671,6 +694,15 @@ License - nucleoapp.com/license/
 .instagram_bg {
     background: #e8369f;
     color: white;
+}
+
+.whatsapp {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    background: #4dee6a;
+    color: white;
+    border-radius: 50%
 }
 
 

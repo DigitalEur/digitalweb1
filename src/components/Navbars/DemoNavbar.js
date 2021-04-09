@@ -219,6 +219,12 @@ class DemoNavbar extends React.Component {
                             className="fa fa-lg fa-youtube"></i></a>
                     </div>
                 </div>
+                <div className="whatsapp-bar d-none d-lg-block">
+                    <div className="mt-2 ml-2">
+                        <a href="https://wa.me/3517155160" className="whatsapp"
+                           target="_blank"><i className="fa fa-3x fa-whatsapp"></i></a>
+                    </div>
+                </div>
                 <CookieConsent
                     location="bottom"
                     buttonText="Accetta"
